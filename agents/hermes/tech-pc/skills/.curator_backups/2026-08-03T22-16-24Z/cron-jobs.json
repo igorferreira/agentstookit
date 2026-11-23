@@ -1,0 +1,253 @@
+{
+  "jobs": [
+    {
+      "id": "6648adf8a047",
+      "name": "Auditoria semanal finance-senior Comprovantes",
+      "prompt": "Execute uma auditoria semanal da pasta financeira `/home/igorferreira/MEGA/Comprovantes` usando o perfil operacional financeiro. Use a skill `financeiro-comprovantes` como guia. Rode o script `/home/igorferreira/.hermes/docs/scripts-financeiro/audit_comprovantes.py --root /home/igorferreira/MEGA/Comprovantes --output /home/igorferreira/.hermes/docs/relatorio-auditoria-comprovantes.md`, leia o relat\u00f3rio gerado, e entregue um resumo objetivo em portugu\u00eas com: quantidade de documentos sem `.md`, markdowns com metadados ausentes, links quebrados, itens abertos/pendentes/revisar e comprovantes pagos com origem a confirmar. N\u00e3o altere arquivos financeiros reais durante a auditoria; apenas gere/atualize o relat\u00f3rio de auditoria.",
+      "skills": [
+        "financeiro-comprovantes"
+      ],
+      "skill": "financeiro-comprovantes",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * 1",
+        "display": "0 9 * * 1"
+      },
+      "schedule_display": "0 9 * * 1",
+      "repeat": {
+        "times": null,
+        "completed": 7
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-16T11:17:45.442817-03:00",
+      "next_run_at": "2026-08-10T09:00:00-03:00",
+      "last_run_at": "2026-08-03T09:12:38.873167-03:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": null,
+      "enabled_toolsets": [
+        "terminal",
+        "file",
+        "skills"
+      ],
+      "workdir": "/home/igorferreira/MEGA/Comprovantes"
+    },
+    {
+      "id": "e08a6e1a1244",
+      "name": "RH \u2014 Monitoramento salarial mensal (4 perfis)",
+      "prompt": "Voc\u00ea \u00e9 o agente de RH do Igor Ferreira. Execute o monitoramento salarial mensal.\n\nDados de refer\u00eancia do Igor (julho/2026):\n- CLT bruto: R$ 13.335,98 (sal\u00e1rio-base R$ 13.274,81 + CCT R$ 61,17)\n- VALLO BENEF\u00cdCIOS: R$ 4.420,00 (rendimento dispon\u00edvel \u2014 N\u00c3O entra na rescis\u00e3o)\n- HDI paga \u00e0 Noorden: R$ 45.000\u2013R$ 55.000/m\u00eas\n- Custo de vida: R$ 9.000/m\u00eas\n\nPerfis a pesquisar:\n1. Arquiteto de IA / AI Architect\n2. Java S\u00eanior / Tech Lead Java\n3. Open Finance / Open Banking S\u00eanior\n4. Arquiteto de Solu\u00e7\u00f5es em Seguros / InsurTech\n\nTarefa:\n1. Pesquisar sal\u00e1rios atuais no mercado brasileiro para os 4 perfis (Glassdoor, Robert Half, LinkedIn Salary, Indeed, Vagas.com)\n2. Comparar com o sal\u00e1rio atual do Igor e calcular defasagem\n3. Verificar se houve mudan\u00e7a relevante vs m\u00eas anterior (ler arquivo mais recente em /home/igorferreira/MEGA/Documentos/CARREIRA/mercado-salarial/pesquisas/)\n4. Salvar relat\u00f3rio mensal em /home/igorferreira/MEGA/Documentos/CARREIRA/mercado-salarial/pesquisas/AAAA-MM_GLASSDOOR-4-PERFIS.md\n5. Atualizar /home/igorferreira/MEGA/Documentos/CARREIRA/mercado-salarial/evolucao/ com an\u00e1lise de ader\u00eancia atualizada\n6. Entregar resumo conciso ao Igor via Telegram com: posicionamento atual, varia\u00e7\u00e3o vs m\u00eas anterior, e 1 a\u00e7\u00e3o recomendada do m\u00eas\n\nFormato da entrega: resumo direto em 10\u201315 linhas, sem enrola\u00e7\u00e3o.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 1 * *",
+        "display": "0 9 1 * *"
+      },
+      "schedule_display": "0 9 1 * *",
+      "repeat": {
+        "times": null,
+        "completed": 1
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-07-23T18:22:23.751173-03:00",
+      "next_run_at": "2026-09-01T09:00:00-03:00",
+      "last_run_at": "2026-08-01T09:08:03.898395-03:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "telegram:1622667267",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "1622667267",
+        "chat_name": "Igor Dev Java Home",
+        "thread_id": null
+      },
+      "enabled_toolsets": [
+        "web",
+        "file"
+      ],
+      "workdir": null
+    },
+    {
+      "id": "8b3fa4faf391",
+      "name": "Verificar vencimentos di\u00e1rio",
+      "prompt": "",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "verificar-vencimentos.py",
+      "no_agent": true,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 8 * * *",
+        "display": "0 8 * * *"
+      },
+      "schedule_display": "0 8 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 8
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-07-27T17:57:25.871109-03:00",
+      "next_run_at": "2026-08-04T08:00:00-03:00",
+      "last_run_at": "2026-08-03T08:00:21.400268-03:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "telegram",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "1622667267",
+        "chat_name": "Igor Dev Java Home",
+        "thread_id": null
+      },
+      "enabled_toolsets": null,
+      "workdir": null
+    },
+    {
+      "id": "029ab7cf9525",
+      "name": "Vigia di\u00e1rio AVISOS.md",
+      "prompt": "",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "verificar-avisos.py",
+      "no_agent": true,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "10 8 * * *",
+        "display": "10 8 * * *"
+      },
+      "schedule_display": "10 8 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-08-03T15:51:27.781089-03:00",
+      "next_run_at": "2026-08-04T08:10:00-03:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "telegram",
+      "origin": null,
+      "enabled_toolsets": null,
+      "workdir": null
+    },
+    {
+      "id": "096255c4906b",
+      "name": "Auditoria de consist\u00eancia financeira semanal",
+      "prompt": "Rode a skill auditoria-consistencia-financeira sobre /home/igorferreira/MEGA/Comprovantes e ~/.hermes/skills/finance/ e ~/.hermes/skills/financeiro/. Siga o procedimento da skill (arquivos-raiz + skills do Hermes). Para cada achado critico ou divergente, adicione uma linha em ~/MEGA/Comprovantes/AVISOS.md (data de hoje, tipo, resumo de uma linha, link pro arquivo com o detalhe) - nao duplique linhas que ja existirem la para o mesmo achado. Ao final, entregue um resumo objetivo em portugues: quantos achados novos, quais sao os mais criticos, e uma lista curta do que esta consistente.",
+      "skills": [
+        "auditoria-consistencia-financeira"
+      ],
+      "skill": "auditoria-consistencia-financeira",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * 4",
+        "display": "0 9 * * 4"
+      },
+      "schedule_display": "0 9 * * 4",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-08-03T15:51:48.826006-03:00",
+      "next_run_at": "2026-08-06T09:00:00-03:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "telegram",
+      "origin": null,
+      "enabled_toolsets": null,
+      "workdir": "/home/igorferreira/MEGA/Comprovantes"
+    },
+    {
+      "id": "81954c198916",
+      "name": "Vigia CCT FEAAC 2026-2027",
+      "prompt": "",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "vigia-cct-feaac.py",
+      "no_agent": true,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * 1",
+        "display": "0 9 * * 1"
+      },
+      "schedule_display": "0 9 * * 1",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-08-03T17:56:36.102849-03:00",
+      "next_run_at": "2026-08-10T09:00:00-03:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "origin",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "1622667267",
+        "chat_name": "Igor Dev Java Home",
+        "thread_id": null
+      },
+      "enabled_toolsets": null,
+      "workdir": null
+    }
+  ],
+  "updated_at": "2026-08-03T17:56:36.103665-03:00"
+}

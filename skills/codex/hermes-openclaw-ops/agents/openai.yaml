@@ -1,0 +1,3 @@
+interface:
+  display_name: "Hermes and OpenClaw Ops"
+  short_description: "Operate Hermes and OpenClaw gateways"

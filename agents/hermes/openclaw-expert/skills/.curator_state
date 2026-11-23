@@ -1,0 +1,9 @@
+{
+  "last_report_path": "/home/igorferreira/.hermes/profiles/openclaw-expert/logs/curator/20261121-161244",
+  "last_run_at": "2026-11-21T16:12:44.502404+00:00",
+  "last_run_duration_seconds": 26.747031,
+  "last_run_summary": "auto: 66 archived; llm: skipped (consolidation off)",
+  "last_run_summary_shown_at": "2026-09-15T01:29:14.859230+00:00",
+  "paused": false,
+  "run_count": 15
+}

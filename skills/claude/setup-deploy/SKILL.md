@@ -1,0 +1,1 @@
+/home/igorferreira/.claude/skills/gstack/setup-deploy/SKILL.md

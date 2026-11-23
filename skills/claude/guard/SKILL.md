@@ -1,0 +1,1 @@
+/home/igorferreira/.claude/skills/gstack/guard/SKILL.md

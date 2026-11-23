@@ -1,0 +1,31 @@
+model:
+  default: z-ai/glm-5.3-flash
+  provider: openrouter
+toolsets:
+  - hermes-cli
+  - kanban
+  - browser
+  - web
+  - code_execution
+platform_toolsets:
+  cli:
+    - browser
+    - clarify
+    - code_execution
+    - web
+    - hermes-cli
+    - kanban
+  telegram:
+    - browser
+    - clarify
+    - code_execution
+    - web
+    - hermes-cli
+    - kanban
+agent:
+  max_turns: 80
+  gateway_timeout: 1800
+  reasoning_effort: medium
+_config_version: 52
+browser:
+  executable_path: /usr/bin/google-chrome

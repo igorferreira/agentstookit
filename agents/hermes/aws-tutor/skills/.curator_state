@@ -1,0 +1,9 @@
+{
+  "last_report_path": "/home/igorferreira/.hermes/profiles/aws-tutor/logs/curator/20261121-161208",
+  "last_run_at": "2026-11-21T16:12:08.815054+00:00",
+  "last_run_duration_seconds": 0.238998,
+  "last_run_summary": "auto: no changes; llm: skipped (consolidation off)",
+  "last_run_summary_shown_at": "2026-06-15T20:39:34.179520+00:00",
+  "paused": false,
+  "run_count": 8
+}

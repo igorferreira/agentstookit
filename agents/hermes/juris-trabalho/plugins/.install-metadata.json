@@ -1,0 +1,26 @@
+{
+  "homeassistant": {
+    "catalog": {
+      "name": "homeassistant",
+      "pin": "4d492b1dc5326af3e38bb2cf3e4b9ad6d65f0072",
+      "repo": "https://github.com/NousResearch/hermes-official-plugins",
+      "sha": "4d492b1dc5326af3e38bb2cf3e4b9ad6d65f0072",
+      "tier": "official"
+    },
+    "pinned": true,
+    "revision": "4d492b1dc5326af3e38bb2cf3e4b9ad6d65f0072",
+    "source": "https://github.com/NousResearch/hermes-official-plugins#homeassistant"
+  },
+  "spotify": {
+    "catalog": {
+      "name": "spotify",
+      "pin": "4d492b1dc5326af3e38bb2cf3e4b9ad6d65f0072",
+      "repo": "https://github.com/NousResearch/hermes-official-plugins",
+      "sha": "4d492b1dc5326af3e38bb2cf3e4b9ad6d65f0072",
+      "tier": "official"
+    },
+    "pinned": true,
+    "revision": "4d492b1dc5326af3e38bb2cf3e4b9ad6d65f0072",
+    "source": "https://github.com/NousResearch/hermes-official-plugins#spotify"
+  }
+}

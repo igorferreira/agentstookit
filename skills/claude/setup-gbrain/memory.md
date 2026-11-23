@@ -1,0 +1,1 @@
+/home/igorferreira/.claude/skills/gstack/setup-gbrain/memory.md

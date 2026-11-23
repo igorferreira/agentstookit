@@ -1,0 +1,15 @@
+name: timeautomatico-realtime
+version: "1.1.0"
+description: "Publica somente eventos reais do ciclo Hermes para o painel TimeAutomatico."
+author: Igor Ferreira / TimeAutomatico
+provides_hooks:
+  - pre_llm_call
+  - post_llm_call
+  - pre_tool_call
+  - post_tool_call
+  - api_request_error
+  - on_session_end
+  - subagent_start
+  - subagent_stop
+provides_tools:
+  - timeautomatico_markdown_gate

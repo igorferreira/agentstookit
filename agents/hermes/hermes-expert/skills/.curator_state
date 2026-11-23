@@ -1,0 +1,9 @@
+{
+  "last_report_path": "/home/igorferreira/.hermes/profiles/hermes-expert/logs/curator/20261121-161212",
+  "last_run_at": "2026-11-21T16:12:12.756166+00:00",
+  "last_run_duration_seconds": 23.403022,
+  "last_run_summary": "auto: 66 archived; llm: skipped (consolidation off)",
+  "last_run_summary_shown_at": "2026-09-15T01:29:14.859230+00:00",
+  "paused": false,
+  "run_count": 15
+}
