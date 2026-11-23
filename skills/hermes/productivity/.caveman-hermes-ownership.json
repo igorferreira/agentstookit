@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "integration": "hermes",
+  "entries": {
+    "caveman": {
+      "installedDigest": "dfc4a8e934b876e11743beb350fdcb46369ba29be814ad5dfab708d633b99878"
+    },
+    "ultracave": {
+      "installedDigest": "ee1af95b49e1aaf9746ca1f2eb7e5b7a32d26af343e052be404bf613e68d17e9"
+    },
+    "megacave": {
+      "installedDigest": "b75bd0bcde43dcd09df9f31310b27053f5da30391b84a44b07e5864168cace0c"
+    },
+    "caveman-commit": {
+      "installedDigest": "e488a12b9c86a24142af4f9467e3cb416b2e70a700b831893a8f229d1d7afcb5"
+    },
+    "caveman-review": {
+      "installedDigest": "19633b05c6be6b27c38f7a888e75d627a03e6563fdc05d38ed1162e375b0f287"
+    },
+    "caveman-help": {
+      "installedDigest": "d1ed1ddcb9dfe64e106a08354d7a22a3441053fb193d20260a985a7564478b1d"
+    },
+    "caveman-stats": {
+      "installedDigest": "c88a09594103625cdef961b4304cd4d3b0bcfd7dd7a573032825b45ebe582f18"
+    },
+    "caveman-compress": {
+      "installedDigest": "1214b81afda5067148b265afc671eee8d29da98c8344ec3ff08b1013582cef14"
+    },
+    "cavecrew": {
+      "installedDigest": "c317d803c0e1b272b5292f14fd3ff37484ea61bc3b531be84266d48f0475e873"
+    }
+  }
+}

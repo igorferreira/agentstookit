@@ -1,0 +1,33 @@
+# Segredos — nunca commitar
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+auth.json
+credentials.json
+secrets.json
+token.json
+service-account.json
+*.db
+*.sqlite
+*.sqlite3
+
+# Estado runtime
+state-snapshots/
+.hub/
+sessions/
+memories/
+cache/
+logs/
+audio_cache/
+image_cache/
+pairing/
+backups/
+
+# Build artifacts
+node_modules/
+dist/
+__pycache__/
+*.pyc

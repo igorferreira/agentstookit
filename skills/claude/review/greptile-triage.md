@@ -1,0 +1,1 @@
+/home/usuario/.claude/skills/gstack/review/greptile-triage.md

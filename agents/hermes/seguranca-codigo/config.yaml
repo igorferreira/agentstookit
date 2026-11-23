@@ -1,0 +1,9 @@
+model:
+  default: z-ai/glm-5.3-flash
+  provider: openrouter
+
+gateway:
+  standalone: true
+browser:
+  executable_path: /usr/bin/google-chrome
+_config_version: 52

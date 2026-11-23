@@ -1,0 +1,1 @@
+/home/usuario/.claude/skills/gstack/qa-only/SKILL.md

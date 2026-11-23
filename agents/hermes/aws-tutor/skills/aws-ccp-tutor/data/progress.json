@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "domains": {
+    "D1": {
+      "correct": 0,
+      "total": 0
+    },
+    "D2": {
+      "correct": 0,
+      "total": 0
+    },
+    "D3": {
+      "correct": 0,
+      "total": 0
+    },
+    "D4": {
+      "correct": 0,
+      "total": 0
+    }
+  },
+  "history": []
+}

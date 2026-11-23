@@ -1,0 +1,4 @@
+interface:
+  display_name: "Reparar barra do Ubuntu MATE"
+  short_description: "Corrige Brisk, icones gigantes e barra do MATE"
+  default_prompt: "Use $ubuntu-mate-panel-repair para corrigir minha barra do MATE e preservar CPU, memoria e Ulauncher."
