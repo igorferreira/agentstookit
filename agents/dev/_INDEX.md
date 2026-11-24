@@ -2,6 +2,9 @@
 
 _Engenharia de software: squads de desenvolvimento, arquitetura, Java/.NET/Python, DevSecOps, Linux, infra_
 
+**Como usar + exemplos de prompts:** [PROMPTS.md](../../PROMPTS.md)
+
+
 **97 agentes** (38 únicos × plataformas)
 
 - **advisory-master** (`codex`) — name = "advisory-master" description = "Use this agent as the entry point for generic software engineering squad questions on any project (not HDI-specific): triages the request ac

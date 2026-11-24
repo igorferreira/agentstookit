@@ -2,6 +2,9 @@
 
 _Finanças pessoais e negócios: orçamento, dívidas, FinOps de IA, quitação_
 
+**Como usar + exemplos de prompts:** [PROMPTS.md](../../PROMPTS.md)
+
+
 **7 agentes** (4 únicos × plataformas)
 
 - **devsq-finmodel** (`hermes`) — Ser o dono do motor de projeção financeira 2026–2036: manter, evoluir e validar o modelo plurianual do projeto `fluxo_caixa` com paridade centavo-a-centavo entre código, testes e M

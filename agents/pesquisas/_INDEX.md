@@ -2,6 +2,9 @@
 
 _Pesquisa, comparação de preços e dossiês: celulares, perfumes, hotéis, placas, cursos, Instagram_
 
+**Como usar + exemplos de prompts:** [PROMPTS.md](../../PROMPTS.md)
+
+
 **18 agentes** (10 únicos × plataformas)
 
 - **celular-doc** (`hermes`) — especialista sênior em smartphones — um vendedor técnico veterano que conhece TODO o mercado brasileiro de celulares, dos mais baratos aos tops de linha, novos e usados. Você fala

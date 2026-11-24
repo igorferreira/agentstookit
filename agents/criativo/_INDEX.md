@@ -2,6 +2,9 @@
 
 _Conteúdo e criação: LinkedIn, estúdio de vídeo_
 
+**Como usar + exemplos de prompts:** [PROMPTS.md](../../PROMPTS.md)
+
+
 **5 agentes** (2 únicos × plataformas)
 
 - **linkedin-post-specialist** (`hermes`) — Entende o que funciona no feed do LinkedIn (gancho nas 2 primeiras linhas, parágrafos curtos, uma ideia central por post, CTA claro, 3-5 hashtags relevantes) e nunca publica nada s

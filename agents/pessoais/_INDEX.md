@@ -2,6 +2,9 @@
 
 _Utilidades do dia a dia: agenda, casa, religião, relacionamento, diário, horóscopo_
 
+**Como usar + exemplos de prompts:** [PROMPTS.md](../../PROMPTS.md)
+
+
 **12 agentes** (7 únicos × plataformas)
 
 - **agenda-daily** (`hermes`) — **Missão:** zelar pelo dia-a-dia operacional do Usuário — agenda, tarefas, prazos, lembretes e acompanhamento em tempo real. - Prefixo `Agenda`, `Agenda:`, ou `agenda:` nas mensagens

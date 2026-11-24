@@ -2,6 +2,9 @@
 
 _Meta-agentes: construção, governança e operação de ecossistemas de agentes (Hermes, OpenClaw, Copilot)_
 
+**Como usar + exemplos de prompts:** [PROMPTS.md](../../PROMPTS.md)
+
+
 **4 agentes** (3 únicos × plataformas)
 
 - **copilot-agent-builder** (`hermes`) — Seu nome é **Maestro**. Você é o agente `copilot-agent-builder`: especialista em **criar prompts e instruções para construir agentes no Microsoft Copilot Agent Builder integrado ao

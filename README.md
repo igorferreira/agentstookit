@@ -1,32 +1,35 @@
 # agentstookit
 
-Coleção de agentes e skills prontos para as plataformas **Hermes**, **Codex** e **Claude** — separados por plataforma, um diretório por agente/skill.
+Coleção de **370 agentes** e dezenas de skills prontas para as plataformas **Hermes**, **Codex** e **Claude** — organizados por **domínio de conhecimento**, com um diretório autocontido por agente.
 
-## Estrutura
+> Exemplos de prompts prontos para cada domínio: **[PROMPTS.md](PROMPTS.md)**
 
-```
-agentstookit/
-├── agents/         # organizados por DOMÍNIO, cada agente autocontido
-│   ├── juridico/   # banca jurídica (40+ especialidades) — veja _INDEX.md
-│   ├── dev/        # squads de dev, arquitetura, DevSecOps, Linux
-│   ├── saude/      # banca multidisciplinar de saúde
-│   ├── finance/    # finanças, dívidas, FinOps de IA
-│   ├── negocios/   # carreira, RH, produto, operações
-│   ├── agentic/    # meta-agentes (Hermes, OpenClaw, Copilot builder)
-│   ├── pesquisas/  # preços, dossiês, comparações
-│   ├── pessoais/   # agenda, casa, diário
-│   └── criativo/   # conteúdo, vídeo
-└── skills/
-    ├── hermes/   # skills globais (organizadas por categoria)
-    ├── codex/    # skills
-    └── claude/   # skills
-```
+## Os 9 domínios
+
+| Domínio | O que tem | Quando usar |
+|---|---|---|
+| **[juridico](agents/juridico/_INDEX.md)** | Banca jurídica com 55 especialidades do Direito brasileiro (juris-tributario, juris-penal, juris-lgpd, juris-ia, juris-master...) | Análise técnica de questão jurídica, minuta de peça, parecer, segunda opinião de tese. Use `juris-master` para orquestrar a banca ou chame a especialidade direto |
+| **[dev](agents/dev/_INDEX.md)** | Squads completas (devsquad-*: lead, po, architect, backend, frontend, qa, devsecops, reviewer), arquitetos (solution, java, dotnet), seniores (java, python, dotnet), Linux/Ubuntu, segurança de código | Construir feature end-to-end, revisar arquitetura, code review, diagnóstico de infra, capacitação (aws-tutor) |
+| **[saude](agents/saude/_INDEX.md)** | Banca multidisciplinar: clínico geral, cardiologista, endocrinologista, nutrólogo, ortopedista, psiquiatra, preparador físico, fisioterapeuta + `saude-master` | Interpretar exames, plano de treino/dieta, segunda opinião médica antes de consulta. **Não substitui profissional da saúde** |
+| **[finance](agents/finance/_INDEX.md)** | Orçamento, quitação de dívidas, FinOps de IA, CFO pessoal | Controlar gastos, planejar pagamento de dívidas, auditar custo de LLM/agentes |
+| **[negocios](agents/negocios/_INDEX.md)** | Carreira e RH (hr-tech-senior, salarios-glassdoor), produto, transformação digital, operações (sindico-virtual, viagem corporativa) | Negociação salarial, dossiê de empresa antes de entrevista, plano de produto, rotina de condomínio |
+| **[agentic](agents/agentic/_INDEX.md)** | Meta-agentes: construção de agentes (copilot-agent-builder), operação de ecossistemas (hermes-expert, openclaw-expert, hermes-town-expert) | Criar um agente novo do zero, depurar gateway/configuração, governança de frota de agentes |
+| **[pesquisas](agents/pesquisas/_INDEX.md)** | Comparadores e dossiês: celular, notebook, perfume, hotel, placa de veículo, cursos gratuitos, dossiê de Instagram | Compra planejada ("qual celular vale mais a pena?"), dossiê antes de decidir, monitoramento de preço |
+| **[pessoais](agents/pessoais/_INDEX.md)** | Agenda diária, casa inteligente, diário, conselheiro de relacionamento, espiritualidade, horóscopo | Rotina pessoal, organização de dia, reflexão guiada |
+| **[criativo](agents/criativo/_INDEX.md)** | Conteúdo para LinkedIn, estúdio de vídeo | Escrever post com autoridade técnica, produzir vídeo-aula |
 
 ## Como usar
 
-- **Hermes**: copie a pasta do agente para `~/.hermes/profiles/<nome>/` (as chaves de API ficam em `.env` — crie o seu; o repositório não contém credenciais).
-- **Codex**: copie a definição para `~/.codex/agents/`.
-- **Claude**: copie a definição para `~/.claude/agents/` ou a skill para `~/.claude/skills/`.
+Cada pasta de agente é **autocontida** — o contexto (persona, regras, conhecimento) mora dentro dela:
+
+- **Hermes**: copie a pasta do agente para `~/.hermes/profiles/<nome>/` e rode `hermes -p <nome> -z "seu prompt"`. As chaves de API ficam em `.env` — crie o seu (o repositório não contém credenciais).
+- **Claude**: copie a definição `.md` para `~/.claude/agents/` e invoque via Task/`@agente`.
+- **Codex**: copie a definição `.toml` para `~/.codex/agents/`.
+
+**Dicas de uso:**
+- Comece pelo `_INDEX.md` do domínio: cada linha traz o agente, a plataforma e o que ele faz em 1 frase.
+- Para decisões grandes, use o padrão **banca**: chame o agente `-master` do domínio (juris-master, saude-master) para coordenar múltiplas especialidades e consolidar veredito.
+- Padrões de prompt prontos (por domínio) estão em **[PROMPTS.md](PROMPTS.md)**.
 
 ## Segurança
 

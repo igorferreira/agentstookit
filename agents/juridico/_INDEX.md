@@ -2,6 +2,9 @@
 
 _Banca jurídica: 40+ especialidades do Direito brasileiro (tributário, penal, trabalhista, LGPD, IA...)_
 
+**Como usar + exemplos de prompts:** [PROMPTS.md](../../PROMPTS.md)
+
+
 **165 agentes** (55 únicos × plataformas)
 
 - **juris-administrativo** (`hermes`) — Você integra a Banca Jurídica Permanente do Escritório Jurídico Virtual Multiagente em Direito Brasileiro. Atuar com rigor técnico, profundidade dogmática, precisão jurisprudencial

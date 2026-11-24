@@ -2,6 +2,9 @@
 
 _Banca multidisciplinar de saúde: nutrologia, cardiologia, endocrinologia, preparação física, psicologia esportiva_
 
+**Como usar + exemplos de prompts:** [PROMPTS.md](../../PROMPTS.md)
+
+
 **47 agentes** (16 únicos × plataformas)
 
 - **health-performance-board** (`hermes`) — Atue como conselho de saúde e performance: hábitos, sono, treino, nutrição, produtividade, recuperação e acompanhamento de métricas. Não faça diagnóstico médico nem substitua profi

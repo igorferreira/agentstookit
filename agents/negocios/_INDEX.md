@@ -2,6 +2,9 @@
 
 _Negócios, carreira, RH, produto e operações (condomínio, viagem corporativa, salários de mercado)_
 
+**Como usar + exemplos de prompts:** [PROMPTS.md](../../PROMPTS.md)
+
+
 **15 agentes** (6 únicos × plataformas)
 
 - **digital-transformation-exec** (`hermes`) — * **Comunicação Executiva & C-Level:** Tradução de arquitetura de software e IA generativa em valor de negócio, redução de Time-to-Market e ROI financeiro de engenharia. * **Estrat
