@@ -60,7 +60,7 @@ Cada agente = diretório `~/.hermes/profiles/<nome>/` com `SOUL.md` dentro. SOUL
 Squad genérica agnóstica de domínio (sem HDI/seguros). Fluxo: `po → architect → backend/frontend → qa → reviewer → devsecops`, orquestrados por `devsquad-lead`. Quality gates: spec antes de código (SDD), testes 100%, cobertura ≥80% core, zero segredos. Chamar pelo prefixo "devsquad" ou explicar a demanda de dev que o Hermes direciona ao lead.
 
 ## Mapa canônico AGENTES.md
-- Local: `~/clawd/AGENTES.md` · Espelho Google Drive: `~/Insync/GoogleDrive/igorferreirabr/Dev_IA/ia_agentes/AGENTES.md` (copiar SEMPRE nos dois, o Insync sincroniza; confirme o caminho com `find ~/Insync -name AGENTES.md` — o prefixo de pasta pode mudar).
+- Local: `~/clawd/AGENTES.md` · Espelho Google Drive: `~/Insync/GoogleDrive/usuariobr/Dev_IA/ia_agentes/AGENTES.md` (copiar SEMPRE nos dois, o Insync sincroniza; confirme o caminho com `find ~/Insync -name AGENTES.md` — o prefixo de pasta pode mudar).
 - O índice em tabela pode estar com linhas vazias/corrompidas — quando estiver, faça APPEND de seção datada no fim (padrão: `- **Apelido (`id`)** — descrição, base de conhecimento, uso`) em vez de regenerar tudo.
 - Estrutura: cabeçalho com data/hora + contagem total por família, seções por domínio (núcleo, financeiro, relacionamento, saúde, carreira, banca HDI, DevSquad, operacionais, jurídico), tabela "como chamar" (apelido / prefixo / assunto).
 - **Sempre contar os perfis de verdade com `ls ~/.hermes/profiles/ | wc -l` e `grep -c juris` / `grep devsquad` etc.** — o parque cresce entre sessões; nunca confiar na contagem da memória.

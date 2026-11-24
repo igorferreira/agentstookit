@@ -18,7 +18,7 @@ added (self-serve, no partner approval needed for posting to one's own profile â
 https://www.linkedin.com/developers/apps). Then:
 
 ```
-python3 /home/igorferreira/.claude/skills/linkedin-poster/scripts/linkedin_oauth_setup.py \
+python3 /home/usuario/.claude/skills/linkedin-poster/scripts/linkedin_oauth_setup.py \
   --client-id <CLIENT_ID> --client-secret <CLIENT_SECRET>
 ```
 
@@ -31,7 +31,7 @@ when `publish_linkedin_post.py` reports an expired token.
 **Always dry-run first** and show Igor the exact payload before publishing for real:
 
 ```
-python3 /home/igorferreira/.claude/skills/linkedin-poster/scripts/publish_linkedin_post.py \
+python3 /home/usuario/.claude/skills/linkedin-poster/scripts/publish_linkedin_post.py \
   --text "<final approved text>" [--image /path/to/photo.jpg]
 ```
 
@@ -39,7 +39,7 @@ Only after Igor has explicitly confirmed the exact text (and image, if any) show
 dry-run output, re-run with `--publish`:
 
 ```
-python3 /home/igorferreira/.claude/skills/linkedin-poster/scripts/publish_linkedin_post.py \
+python3 /home/usuario/.claude/skills/linkedin-poster/scripts/publish_linkedin_post.py \
   --text "<final approved text>" [--image /path/to/photo.jpg] --publish
 ```
 

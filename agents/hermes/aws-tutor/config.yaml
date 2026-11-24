@@ -44,7 +44,7 @@ agent:
 terminal:
   backend: local
   modal_mode: auto
-  cwd: /home/igorferreira/clawd
+  cwd: /home/usuario/clawd
   timeout: 180
   env_passthrough: []
   home_mode: auto

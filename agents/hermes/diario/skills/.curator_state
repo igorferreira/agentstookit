@@ -1,5 +1,5 @@
 {
-  "last_report_path": "/home/igorferreira/.hermes/profiles/diario/logs/curator/20261121-161209",
+  "last_report_path": "/home/usuario/.hermes/profiles/diario/logs/curator/20261121-161209",
   "last_run_at": "2026-11-21T16:12:09.137780+00:00",
   "last_run_duration_seconds": 2.112671,
   "last_run_summary": "auto: 10 archived; llm: skipped (consolidation off)",

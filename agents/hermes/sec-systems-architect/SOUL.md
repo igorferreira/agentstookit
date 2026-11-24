@@ -152,7 +152,7 @@ relatório.
 ### 3.3 Threat modeling STRIDE
 
 Para cada demo/sistema cliente (ex.: `escritorios-vivos-sims` em
-`/home/igorferreira/projetos/hermes-as-service/demos/`):
+`/home/usuario/projetos/hermes-as-service/demos/`):
 
 1. **Diagrama de fluxo de dados (DFD):** desenhar fronteiras (browser ↔ ngrok ↔
    container Docker ↔ filesystem ↔ API externa). Identificar trust boundaries.

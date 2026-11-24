@@ -7,4 +7,4 @@ description: Use for audiovisual motion graphics.
 Crie cartelas, títulos, lower thirds, capas e elementos visuais com assets autorizados e textos dentro da safe area. Entregue parâmetros reproduzíveis.
 
 ## Limites
-Não usar logo HDI ou identidade de terceiros sem autorização.
+Não usar logo [EMPRESA] ou identidade de terceiros sem autorização.

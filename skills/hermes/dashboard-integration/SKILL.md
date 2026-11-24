@@ -77,7 +77,7 @@ If data comes from another system's script, call it via `subprocess.run()`:
 ```python
 import subprocess
 result = subprocess.run(
-    ["python3", "/home/igorferreira/.hermes/scripts/<script_name>.py",
+    ["python3", "/home/usuario/.hermes/scripts/<script_name>.py",
      "--flags"],
     capture_output=True, text=True, timeout=120
 )
@@ -143,7 +143,7 @@ Commit with a descriptive message referencing what changed and why.
 
 ### 8. Push
 
-Always push via SSH: `git push origin main`. Remote is `git@github.com:igorferreira/dashboard-financeiro-pessoal.git`. HTTPS/gh CLI tokens expire — SSH never does.
+Always push via SSH: `git push origin main`. Remote is `git@github.com:usuario/dashboard-financeiro-pessoal.git`. HTTPS/gh CLI tokens expire — SSH never does.
 
 ## Static Python-generated pages (the salarial pattern)
 
@@ -172,7 +172,7 @@ When the dashboard needs cron-driven data from scripts stored in MEGA or elsewhe
 ```bash
 #!/bin/bash
 # ~/.hermes/scripts/wrapper-rescisao.sh
-exec python3 /home/igorferreira/MEGA/Documentos/carreira/rescisao/calcular-rescisao.py "$@"
+exec python3 /home/usuario/MEGA/Documentos/carreira/rescisao/calcular-rescisao.py "$@"
 ```
 
 Then create cron with just the wrapper name:
@@ -194,9 +194,9 @@ When adding a new UI element (banner, card, section) to a page that already exis
 
 ## Quick Reference
 
-- Repo root: `/home/igorferreira/MEGA/Comprovantes/fluxo_caixa/dashboard/`
-- External data generator: `/home/igorferreira/.hermes/scripts/generar_avisos_data.py`
+- Repo root: `/home/usuario/MEGA/Comprovantes/fluxo_caixa/dashboard/`
+- External data generator: `/home/usuario/.hermes/scripts/generar_avisos_data.py`
 - Build script: `gerar_dashboard.py` (root level)
 - Menu registry: `menu_rebuild.py` → `PAGINAS` list
-- Git remote: SSH-only `git@github.com:igorferreira/dashboard-financeiro-pessoal.git`
+- Git remote: SSH-only `git@github.com:usuario/dashboard-financeiro-pessoal.git`
 - Local serve: `http://localhost:8766/` (systemd service `dash-serve.service`)

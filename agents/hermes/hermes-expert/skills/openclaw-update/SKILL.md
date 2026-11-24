@@ -18,9 +18,9 @@ PIDS=$(pgrep -f 'cod[e]x app-server'); [ -n "$PIDS" ] && kill $PIDS
 
 # 2. Rodar o update EM BACKGROUND (demora 15-45min com muitos agentes)
 export NODE_OPTIONS="--max-old-space-size=8192"
-env OPENCLAW_STATE_DIR=/home/igorferreira/.openclaw \
-    OPENCLAW_CONFIG_PATH=/home/igorferreira/.openclaw/clawdbot.json \
-    OPENCLAW_WORKSPACE_DIR=/home/igorferreira/.openclaw/workspace \
+env OPENCLAW_STATE_DIR=/home/usuario/.openclaw \
+    OPENCLAW_CONFIG_PATH=/home/usuario/.openclaw/clawdbot.json \
+    OPENCLAW_WORKSPACE_DIR=/home/usuario/.openclaw/workspace \
     openclaw update --yes
 
 # 3. Se sobrar "Abandoned update detected": reconciliar

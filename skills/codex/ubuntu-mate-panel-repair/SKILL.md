@@ -91,4 +91,4 @@ Nao habilitar essa unidade no boot: mate-session ja inicia o painel. Conferir um
 
 Restaurar painel com `dconf load /org/mate/panel/ < panel-before.ini` e reiniciar o painel. Para desfazer override, restaurar PNG anterior ou retirar somente o criado e atualizar cache. Rollback do dconf sozinho nao desfaz icones nem autostart.
 
-Evidencias: `/home/igorferreira/panel-repair-20261013/` contem backups, README.md e capturas. Usar para historico; revalidar estado atual sempre.
+Evidencias: `/home/usuario/panel-repair-20261013/` contem backups, README.md e capturas. Usar para historico; revalidar estado atual sempre.

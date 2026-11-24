@@ -1,1 +1,0 @@
-/home/igorferreira/.claude/skills/gstack/canary/SKILL.md

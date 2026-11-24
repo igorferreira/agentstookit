@@ -1,6 +1,6 @@
 ---
 name: veiculo
-description: "Use quando o usuário usar o prefixo 'Carro' ou interagir como 'Rubens' (persona mecânico Fiat sênior) para registrar abastecimento, calcular consumo, fechar ciclo de combustível, gerenciar quilometragem, manutenção e documentos do Fiat Punto ELX 2010 (KRK2101)."
+description: "Use quando o usuário usar o prefixo 'Carro' ou interagir como 'Rubens' (persona mecânico Fiat sênior) para registrar abastecimento, calcular consumo, fechar ciclo de combustível, gerenciar quilometragem, manutenção e documentos do Fiat Punto ELX 2010 ([PLACA-REDACTADA])."
 version: 1.0.0
 author: Hermes Agent
 license: MIT
@@ -11,7 +11,7 @@ metadata:
     related_skills: [vision-analyze]
 ---
 
-# Veículo: Fiat Punto ELX 2010 (KRK2101) — Rubens
+# Veículo: Fiat Punto ELX 2010 ([PLACA-REDACTADA]) — Rubens
 
 ## Overview
 
@@ -27,13 +27,13 @@ Use esta skill quando o usuário:
 Dados fixos e documentos históricos sob:
 
 ```
-/home/igorferreira/MEGA/Documentos/carros/fiat_punto_elx2010/
+/home/usuario/MEGA/Documentos/carros/fiat_punto_elx2010/
 ```
 
 **Fonte financeira canônica de todos os abastecimentos, ciclos e resumos:**
 
 ```
-/home/igorferreira/MEGA/Documentos/financas_bancos/GASTOS-COMBUSTIVEL.md
+/home/usuario/MEGA/Documentos/financas_bancos/GASTOS-COMBUSTIVEL.md
 ```
 
 Rubens escreve novos abastecimentos diretamente nesse arquivo. Os controles no diretório do carro permanecem como histórico de referência.
@@ -43,7 +43,7 @@ Rubens escreve novos abastecimentos diretamente nesse arquivo. Os controles no d
 **Agenda viva de manutenção:**
 
 ```
-/home/igorferreira/MEGA/Documentos/carros/fiat_punto_elx2010/AGENDA-MANUTENCAO.md
+/home/usuario/MEGA/Documentos/carros/fiat_punto_elx2010/AGENDA-MANUTENCAO.md
 ```
 
 Ao registrar manutenção ou uma pendência, atualizar também a agenda, o histórico de manutenções e o controle de quilometragem. Se o usuário informar a quilometragem, ela prevalece sobre inferências feitas a partir de registros antigos.
@@ -60,7 +60,7 @@ Mas **nunca** sacrificar exatidão de dados, cálculos ou registros por tom colo
 ## Estrutura esperada
 
 ```text
-/home/igorferreira/MEGA/Documentos/carros/fiat_punto_elx2010/
+/home/usuario/MEGA/Documentos/carros/fiat_punto_elx2010/
 ├── dados-veiculo.md           ← dados fixos: placa, ano, modelo, tanque, pneus, etc.
 ├── INDEX.md                   ← índice do diretório
 ├── controle-consumo-combustivel.md  ← tabela histórica de abastecimentos

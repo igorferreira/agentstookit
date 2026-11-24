@@ -5,7 +5,7 @@ Load when Igor asks to check his e-mail for interview/meeting invites ("convites
 
 ## How invite e-mails look
 
-External organizers (first contact) arrive as `Convite de remetente desconhecido: <Evento> - <dia>. <data> <HH:MM - HH:MM> (BRT) (igorferreirabr@gmail.com)`, sender = the organizer's own address (their calendar sends from them). The subject line already carries the date and time window — match interviews/meetings by parsing it, not by opening every message.
+External organizers (first contact) arrive as `Convite de remetente desconhecido: <Evento> - <dia>. <data> <HH:MM - HH:MM> (BRT) (SEU-EMAIL@gmail.com)`, sender = the organizer's own address (their calendar sends from them). The subject line already carries the date and time window — match interviews/meetings by parsing it, not by opening every message.
 
 To find them: `himalaya envelope list --folder INBOX --output json` (paged) and filter on `convite` / `entrevista` / `interview` / organizer domain. `message read <ID>` prints the plain-text rendering, which includes the Meet link, phone PIN and organizer — enough for a report.
 

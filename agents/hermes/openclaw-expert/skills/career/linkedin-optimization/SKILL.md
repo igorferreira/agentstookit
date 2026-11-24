@@ -200,7 +200,7 @@ To appear in searches for "AI Architect":
 
 ## Employer vs Client Relationship
 
-When the user works via consulting/staffing (Noorden → HDI):
+When the user works via consulting/staffing ([EMPRESA] → HDI):
 ```
 Position: [Role] at [Client]
 Company: [Legal Employer] — consultant assigned to [Client]
@@ -212,7 +212,7 @@ Company: [Client]  ← MISLEADING in background checks
 Template for experience entry:
 ```
 Title: Arquiteto de Inovação e IA
-Company: Noorden Services (alocado na HDI Seguros)
+Company: [EMPRESA] Services (alocado na HDI Seguros)
 Period: Jan 2026 – present (3 yrs prior as Senior Specialist)
 ```
 

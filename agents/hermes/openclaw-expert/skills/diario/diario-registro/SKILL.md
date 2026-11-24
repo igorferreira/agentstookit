@@ -1,6 +1,6 @@
 ---
 name: diario-registro
-description: "Use para registrar atividades, pensamentos, ideias, fotos, arquivos e links no diário do Igor sob /home/igorferreira/MEGA/Documentos/obsidian/NotasDiarias com suporte a memoria infinita."
+description: "Use para registrar atividades, pensamentos, ideias, fotos, arquivos e links no diário do Igor sob /home/usuario/MEGA/Documentos/obsidian/NotasDiarias com suporte a memoria infinita."
 version: 1.2.0
 author: Hermes Agent
 license: MIT
@@ -22,12 +22,12 @@ Registro contínuo de atividades, pensamentos, reflexões e eventos do dia em fo
 
 Dois caminhos disponíveis (escolha o mais adequado ao contexto):
 
-1. **Diário Canônico (novo):** `/home/igorferreira/MEGA/Documentos/diario/AAAA-MM-DD.md`
+1. **Diário Canônico (novo):** `/home/usuario/MEGA/Documentos/diario/AAAA-MM-DD.md`
    - Template limpo, agrupado por domínio (Saúde, Tecnologia, Relacionamento, etc.)
-   - Sincroniza automaticamente pro Google Drive via Insync (`igorferreirabr`)
+   - Sincroniza automaticamente pro Google Drive via Insync (`usuariobr`)
    - Ideal para registro de eventos factuais do dia
 
-2. **Notas Diárias (legado):** `/home/igorferreira/MEGA/Documentos/obsidian/NotasDiarias/AAAA-MM-DD.md`
+2. **Notas Diárias (legado):** `/home/usuario/MEGA/Documentos/obsidian/NotasDiarias/AAAA-MM-DD.md`
    - Template Obsidian-friendly com anexos, links e reflexões
    - Ideal para pensamentos mais introspectivos e mídia
 
@@ -80,7 +80,7 @@ Dois caminhos disponíveis (escolha o mais adequado ao contexto):
 ## Protocolo de Manipulação de Imagens e Anexos
 
 1. Quando uma foto/imagem for enviada (via Telegram/Gateway ou caminho de arquivo local):
-   - Mover ou salvar a imagem em `/home/igorferreira/MEGA/Documentos/obsidian/NotasDiarias/anexos/`.
+   - Mover ou salvar a imagem em `/home/usuario/MEGA/Documentos/obsidian/NotasDiarias/anexos/`.
    - Nomear como: `AAAA-MM-DD_HHMMSS_<descricao-curta>.<ext>`.
    - Inserir a imagem na seção `📸 Fotos, Mídias & Anexos` do arquivo `AAAA-MM-DD.md` com a sintaxe:
      `![[anexos/AAAA-MM-DD_HHMMSS_descricao-curta.ext]]` ou `![descrição](anexos/AAAA-MM-DD_HHMMSS_descricao-curta.ext)`.
@@ -96,7 +96,7 @@ Dois caminhos disponíveis (escolha o mais adequado ao contexto):
 ## Regras de Atualização Incremental (Append)
 
 1. Verificar a data atual usando `date`.
-2. Verificar se a nota `AAAA-MM-DD.md` já existe em `/home/igorferreira/MEGA/Documentos/obsidian/NotasDiarias/`.
+2. Verificar se a nota `AAAA-MM-DD.md` já existe em `/home/usuario/MEGA/Documentos/obsidian/NotasDiarias/`.
 3. Se NÃO existir: criar o arquivo com o cabeçalho e estrutura completa do template (extensão `.md`).
 4. Se JÁ existir: ler o conteúdo atual, localizar a seção adequada (Fatos, Pensamentos, Fotos, Links, etc.) e adicionar a nova linha no final dessa seção mantendo o horário `[HH:MM]`.
 5. NUNCA apagar ou sobrescrever anotações anteriores da nota diária.

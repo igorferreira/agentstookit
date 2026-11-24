@@ -9,7 +9,7 @@
 | Claude | Pro | 20,00 | ~101,94 | Ativo |
 | Gemini | Advanced | 19,99 | ~101,89 | Ativo |
 | Manus | Pro Entry | 20,00 | ~101,94 | Ativo |
-| **TOTAL FIXO IA** | — | **US$ 79,99** | **~R$ 407,71** | 4 assinaturas |
+| **TOTAL FIXO IA** | — | **US$ [REDACTADO]** | **~R$ [REDACTADO]** | 4 assinaturas |
 
 ## Notas
 

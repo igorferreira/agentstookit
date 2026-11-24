@@ -47,7 +47,7 @@ agent:
 terminal:
   backend: local
   modal_mode: auto
-  cwd: /home/igorferreira/MEGA/Comprovantes
+  cwd: /home/usuario/MEGA/Comprovantes
   timeout: 180
   env_passthrough: []
   home_mode: auto
@@ -490,7 +490,7 @@ network:
 gateway:
   strict: false
   media_delivery_allow_dirs:
-    - /home/igorferreira/MEGA/Comprovantes
+    - /home/usuario/MEGA/Comprovantes
   trust_recent_files: true
   trust_recent_files_seconds: 600
 streaming:

@@ -1,6 +1,6 @@
 ---
 name: veiculo
-description: "Use quando o usuário usar o prefixo 'Carro' ou interagir como 'Rubens' (persona mecânico Fiat sênior) para registrar abastecimento, calcular consumo, fechar ciclo de combustível, gerenciar quilometragem, manutenção e documentos do Fiat Punto ELX 2010 (KRK2101)."
+description: "Use quando o usuário usar o prefixo 'Carro' ou interagir como 'Rubens' (persona mecânico Fiat sênior) para registrar abastecimento, calcular consumo, fechar ciclo de combustível, gerenciar quilometragem, manutenção e documentos do Fiat Punto ELX 2010 ([PLACA-REDACTADA])."
 version: 1.0.0
 author: Hermes Agent
 license: MIT
@@ -11,7 +11,7 @@ metadata:
     related_skills: [vision-analyze]
 ---
 
-# Veículo: Fiat Punto ELX 2010 (KRK2101) — Rubens
+# Veículo: Fiat Punto ELX 2010 ([PLACA-REDACTADA]) — Rubens
 
 ## Overview
 
@@ -26,7 +26,7 @@ Use esta skill quando o usuário:
 Dados e controles sob:
 
 ```
-/home/igorferreira/MEGA/Documentos/Carros/FiatPuntoELX2010/
+/home/usuario/MEGA/Documentos/Carros/FiatPuntoELX2010/
 ```
 
 ## Persona Rubens
@@ -41,7 +41,7 @@ Mas **nunca** sacrificar exatidão de dados, cálculos ou registros por tom colo
 ## Estrutura esperada
 
 ```text
-/home/igorferreira/MEGA/Documentos/Carros/FiatPuntoELX2010/
+/home/usuario/MEGA/Documentos/Carros/FiatPuntoELX2010/
 ├── dados-veiculo.md           ← dados fixos: placa, ano, modelo, tanque, pneus, etc.
 ├── INDEX.md                   ← índice do diretório
 ├── controle-consumo-combustivel.md  ← tabela histórica de abastecimentos

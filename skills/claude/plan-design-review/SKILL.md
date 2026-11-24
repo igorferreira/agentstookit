@@ -1,1 +1,0 @@
-/home/igorferreira/.claude/skills/gstack/plan-design-review/SKILL.md

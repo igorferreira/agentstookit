@@ -29,13 +29,13 @@ metadata:
 1. Subir o túnel em background: `ngrok tcp 22 --log /tmp/ngrok_ssh.log --log-format json`
 2. Ler a URL do log (linha JSON `"msg":"started tunnel"`): `tcp://0.tcp.sa.ngrok.io:PORTA`.
 3. VERIFICAR antes de entregar: o DNS local da máquina pode estar sob adblock/sinkhole e responder `0.0.0.0`/`::` para domínios ngrok — testar `getent hosts <domínio>`; se vier 0.0.0.0/::, resolver o IP real via DoH (`curl -H 'accept: application/dns-json' 'https://cloudflare-dns.com/dns-query?name=<domínio>&type=A'`) e testar a conexão no IP direto. UDP 53 externo pode estar bloqueado (só o resolvedor local responde) — não insistir no dig direto.
-4. Prova final: handshake SSH — `ssh -p PORTA -o BatchMode=yes -o StrictHostKeyChecking=no igorferreira@<IP>` deve retornar `Permission denied (publickey,password)` (chegou ao sshd; BatchMode não manda senha, a negativa é esperada).
+4. Prova final: handshake SSH — `ssh -p PORTA -o BatchMode=yes -o StrictHostKeyChecking=no usuario@<IP>` deve retornar `Permission denied (publickey,password)` (chegou ao sshd; BatchMode não manda senha, a negativa é esperada).
 5. Entregar ao Igor (Termux):
    ```
    pkg install -y openssh
    ```
    ```
-   ssh -p PORTA igorferreira@<IP-ou-domínio>
+   ssh -p PORTA usuario@<IP-ou-domínio>
    ```
 
 ## Procedimento B — interface de app local (T3 Code etc.) no navegador do celular (validado)
@@ -43,7 +43,7 @@ Apps locais escutam em loopback (T3 Code: 127.0.0.1:3773); o caminho é túnel S
 1. No celular, o túnel `-L` tem que rodar numa SESSÃO LOCAL do Termux (gaveta lateral → New session), NUNCA dentro da sessão SSH já aberta: o `-L` escuta no aparelho onde o comando roda, e dentro do SSH o listener nasceria na máquina (loop inútil).
 2. Na sessão local:
    ```
-   ssh -fN -p PORTA -L 3773:127.0.0.1:3773 igorferreira@<IP-ou-domínio>
+   ssh -fN -p PORTA -L 3773:127.0.0.1:3773 usuario@<IP-ou-domínio>
    ```
 3. Na máquina, gerar o código de pareamento (`t3 pair`) e entregar a URL `http://127.0.0.1:3773/pair#token=...` — ela expira em ~5 MINUTOS: gerar na hora da entrega, nunca adiantado. Igor abre no navegador do próprio celular (o túnel já mapeia o 127.0.0.1 do celular).
 - Pitfall: `bind [127.0.0.1]:3773: Address already in use` na 2ª tentativa = o túnel da 1ª tentativa ESTÁ no ar. Não é erro — informar sucesso.
@@ -51,8 +51,8 @@ Apps locais escutam em loopback (T3 Code: 127.0.0.1:3773); o caminho é túnel S
 
 ## Procedimento C — Tailscale (preferido)
 - Tailnet ativa com dois nós: `isfconsultpc` (100.93.59.85, a máquina) e `redmi-note-13` (Android). Pareamento = entrar com a MESMA conta em cada dispositivo novo; nada a configurar por device.
-- SSH direto de qualquer nó: `ssh igorferreira@100.93.59.85`.
-- `tailscale serve` (HTTPS na tailnet) exige operator/root: o Igor roda UMA VEZ `sudo tailscale set --operator=igorferreira`; depois o CLI funciona sem sudo. Sem isso o comando trava em vez de falhar rápido — não interpretar o travamento como falha do túnel.
+- SSH direto de qualquer nó: `ssh usuario@100.93.59.85`.
+- `tailscale serve` (HTTPS na tailnet) exige operator/root: o Igor roda UMA VEZ `sudo tailscale set --operator=usuario`; depois o CLI funciona sem sudo. Sem isso o comando trava em vez de falhar rápido — não interpretar o travamento como falha do túnel.
 
 ## Expor app web com allowlist de Host via ngrok
 - Apps servidos por vite dev (ex.: OpenBot/OpenDuet em :3010) bloqueiam Host header que não seja localhost/loopback (403 'Blocked request'). O rewrite resolve sem patch no app: `ngrok http 3010 --host-header="localhost:3010" --basic-auth ...`. Se o app validar CORS/origem (TRUSTED_ORIGINS, BETTER_AUTH_URL), acrescentar a URL https do ngrok nessas variáveis e reiniciar o processo do app.

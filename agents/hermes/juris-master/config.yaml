@@ -48,7 +48,7 @@ agent:
 terminal:
   backend: local
   modal_mode: auto
-  cwd: /home/igorferreira/clawd
+  cwd: /home/usuario/clawd
   timeout: 180
   env_passthrough: []
   home_mode: auto
@@ -631,7 +631,7 @@ mcp_servers:
     command: uv
     args:
       - --directory
-      - /home/igorferreira/MCP/juridico/brlaw_mcp_server
+      - /home/usuario/MCP/juridico/brlaw_mcp_server
       - run
       - serve
     enabled: true
@@ -645,14 +645,14 @@ mcp_servers:
       - mcp_brasil.server
     enabled: true
   trf1_jurisprudencia:
-    command: /home/igorferreira/MCP/juridico/trf1-jurisprudencia-mcp/.venv/bin/python
+    command: /home/usuario/MCP/juridico/trf1-jurisprudencia-mcp/.venv/bin/python
     args:
-      - /home/igorferreira/MCP/juridico/trf1-jurisprudencia-mcp/servidor_trf1.py
+      - /home/usuario/MCP/juridico/trf1-jurisprudencia-mcp/servidor_trf1.py
     enabled: true
   tjro_jurisprudencia:
     command: node
     args:
-      - /home/igorferreira/MCP/juridico/tjro-jurisprudencia-mcp/server/index.js
+      - /home/usuario/MCP/juridico/tjro-jurisprudencia-mcp/server/index.js
     enabled: true
 
 # ── Fallback Model ────────────────────────────────────────────────────

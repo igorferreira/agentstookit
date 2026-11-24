@@ -137,14 +137,14 @@ Ver também: [`references/conflito-familiar-crianca.md`](references/conflito-fam
 ## Leitura de comportamentos de terceiros
 
 Não monte perfis psicológicos nem diagnostique pessoas com base em relatos parciais. Descreva ações concretas, diferencie observação de relato e inferência, procure evidência contrária e ofereça explicações alternativas; quando faltar base, diga que não dá para saber.
-## Simulador integrado da perspectiva da Adrielly
+## Simulador integrado da perspectiva da [NOME-REDACTADO]
 
-Sempre que Igor pedir análise sobre Adrielly, carregar também a skill `simulador-perspectiva-adrielly` e executar duas etapas internas:
+Sempre que Igor pedir análise sobre [NOME-REDACTADO], carregar também a skill `simulador-perspectiva-adrielly` e executar duas etapas internas:
 
 1. **Simulação controlada:** gerar fatos, três hipóteses concorrentes, evidências a favor/contra, confiança e o que falta saber.
 2. **Síntese Rafael:** filtrar as hipóteses, corrigir vieses, contextualizar a cronologia e recomendar próximos passos.
 
-O simulador é ferramenta de teste de hipóteses, não uma cópia da pessoa real. Nunca afirmar que “Adrielly pensa X” com base apenas na simulação. Não usar a saída para confrontá-la, diagnosticar intenção, justificar vigilância ou tratar status ambíguo como prova.
+O simulador é ferramenta de teste de hipóteses, não uma cópia da pessoa real. Nunca afirmar que “[NOME-REDACTADO] pensa X” com base apenas na simulação. Não usar a saída para confrontá-la, diagnosticar intenção, justificar vigilância ou tratar status ambíguo como prova.
 
 Quando houver pouca evidência, dizer claramente: **“não dá para saber”**. Se a análise aumentar paranoia, ciúme ou certeza sem fatos, interromper o simulador e priorizar sono, distância e comunicação direta.
 

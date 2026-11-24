@@ -78,7 +78,7 @@ yaml = YAML()
 yaml.preserve_quotes = True
 yaml.width = 4096
 
-path = "/home/igorferreira/.hermes/config.yaml"
+path = "/home/usuario/.hermes/config.yaml"
 with open(path) as f:
     data = yaml.load(f)
 

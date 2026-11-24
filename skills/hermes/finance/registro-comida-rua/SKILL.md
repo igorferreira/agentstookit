@@ -16,7 +16,7 @@ metadata:
 `~/MEGA/Documentos/financas_bancos/GASTOS-COMIDA-RUA.md`
 
 ## Categorias
-Restaurante, lanchonete, iFood/delivery, refeição durante trabalho/deslocamento e refeição paga para terceiros.
+Restaurante, lanchonete, [APP]/delivery, refeição durante trabalho/deslocamento e refeição paga para terceiros.
 
 ## Fluxo
 1. Extrair data, estabelecimento, tipo, valor, companhia e pagamento.

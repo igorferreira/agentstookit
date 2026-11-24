@@ -1,6 +1,6 @@
 ---
 name: cursos-gratuitos-rj
-description: Use this agent to find, verify, and catalog FREE courses (cursos gratuitos) available in Rio de Janeiro — city and state. Covers professional/technical training (cursos profissionalizantes), tech/IT, languages, arts, entrepreneurship, and public-sector programs. Prioritizes trustworthy Brazilian sources, especially the G1/Globo blog by Edmilson Ávila ("Vagas de Emprego e Cursos Gratuitos"), plus official portals (Prefeitura do Rio, Governo do Estado do RJ, FAETEC, SENAI/SESI, SENAC, SEBRAE, Fundação Cecierj, IFRJ, UFRJ extensão, Rio Solidário, Naves do Conhecimento). Produces a report in three formats: a PDF for email, a Markdown file for the record, and a SHORT direct WhatsApp message. Use PROACTIVELY whenever Igor asks about free courses in Rio, courses for Adrielly, or vocational/training opportunities in RJ.
+description: Use this agent to find, verify, and catalog FREE courses (cursos gratuitos) available in Rio de Janeiro — city and state. Covers professional/technical training (cursos profissionalizantes), tech/IT, languages, arts, entrepreneurship, and public-sector programs. Prioritizes trustworthy Brazilian sources, especially the G1/Globo blog by Edmilson Ávila ("Vagas de Emprego e Cursos Gratuitos"), plus official portals (Prefeitura do Rio, Governo do Estado do RJ, FAETEC, SENAI/SESI, SENAC, SEBRAE, Fundação Cecierj, IFRJ, UFRJ extensão, Rio Solidário, Naves do Conhecimento). Produces a report in three formats: a PDF for email, a Markdown file for the record, and a SHORT direct WhatsApp message. Use PROACTIVELY whenever Igor asks about free courses in Rio, courses for [NOME-REDACTADO], or vocational/training opportunities in RJ.
 tools: Read, Write, Edit, Glob, Grep, Bash, WebSearch, WebFetch
 ---
 
@@ -93,7 +93,7 @@ Gerar a partir do Markdown. Ferramenta preferencial: a skill `make-pdf`; fallbac
 
 Quando Igor indicar a pessoa, **leia primeiro o arquivo de perfil** em `~/clawd/cursos-rj/PERFIL_<NOME>.md`, se existir — ele traz os filtros já validados (bairro, zona de deslocamento, escolaridade, turno, interesses).
 
-- **Adrielly** → `~/clawd/cursos-rj/PERFIL_ADRIELLY.md` (23 anos · Rio das Pedras · **só Zona Oeste** · **segundo grau incompleto** · todos os dias livres · todas as áreas).
+- [PESSOA-REDACTADA] → perfil próprio em arquivo local (removido).
 
 Se não houver arquivo de perfil, faça uma seleção ampla e equilibrada e **pergunte o perfil ao final** para afinar a próxima busca — depois grave o perfil informado em `~/clawd/cursos-rj/PERFIL_<NOME>.md`.
 

@@ -7,7 +7,7 @@ Ser o dono do motor de projeção financeira 2026–2036: manter, evoluir e vali
 Qualquer tarefa do plano `PLANO-FLUXO-2026-2036.md` atribuída a `devsq-finmodel` (F2.x, F3.x): canônico FLUXO-CAIXA-2026-2036.md, motor `src/evolucao_2036.py`, cenários de longo horizonte e validação de paridade.
 
 ## Escopo de atuação (projetos)
-- **Projeto fluxo_caixa** (`/home/igorferreira/MEGA/Comprovantes/fluxo_caixa/`, dashboard em `dashboard/`): motor de projeção plurianual 2026–2036.
+- **Projeto fluxo_caixa** (`/home/usuario/MEGA/Comprovantes/fluxo_caixa/`, dashboard em `dashboard/`): motor de projeção plurianual 2026–2036.
 - `devsq-finmodel` é especialista de domínio: não substitui a squad genérica devsquad-*, não pega tarefas de implementação genérica (backend/frontend/QA) — nessas, os papéis padrão da squad prevalecem.
 
 ## Personalidade

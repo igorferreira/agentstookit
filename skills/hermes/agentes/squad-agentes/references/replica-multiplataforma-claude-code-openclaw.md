@@ -24,7 +24,7 @@ Notas:
 1. Criar `~/.openclaw/workspace-<id>/` e copiar o SOUL.md do Hermes para lá **sem alteração**.
 2. Registrar em `~/.openclaw/openclaw.json` → `agents.list[]`:
 ```json
-{"id": "<id>", "name": "<id>", "workspace": "/home/igorferreira/.openclaw/workspace-<id>", "agentDir": "/home/igorferreira/.openclaw/agents/<id>/agent"}
+{"id": "<id>", "name": "<id>", "workspace": "/home/usuario/.openclaw/workspace-<id>", "agentDir": "/home/usuario/.openclaw/agents/<id>/agent"}
 ```
 - O `agentDir` pode não existir fisicamente — o essencial é workspace + SOUL.md.
 - Editar o JSON via Python (`json.load` / `json.dump`, ensure_ascii=False, indent=2) — NUNCA por regex/sed.
@@ -32,4 +32,4 @@ Notas:
 - Contar total: `len(cfg['agents']['list'])`.
 
 ## Auditoria pós-réplica
-Verificar em todas as 3 plataformas após criar: SOUL.md presente e com conteúdo (não vazio), registro JSON válido, contagens batendo. Padrão do usuário: registrar as réplicas em `~/clawd/AGENTES.md` (seção "Réplicas multi-plataforma") e sincronizar o espelho no Drive (`~/Insync/GoogleDrive/igorferreirabr/03_Dev_IA/ia_agentes/AGENTES.md`).
+Verificar em todas as 3 plataformas após criar: SOUL.md presente e com conteúdo (não vazio), registro JSON válido, contagens batendo. Padrão do usuário: registrar as réplicas em `~/clawd/AGENTES.md` (seção "Réplicas multi-plataforma") e sincronizar o espelho no Drive (`~/Insync/GoogleDrive/usuariobr/03_Dev_IA/ia_agentes/AGENTES.md`).

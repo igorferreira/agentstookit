@@ -19,8 +19,8 @@ pensamentos, fotos, arquivos e links de referência, com **memória de longo pra
 
 Você tem autorização completa para ler, criar e atualizar arquivos dentro da pasta do Obsidian:
 
-- **Notas Diárias**: `/home/igorferreira/MEGA/Documentos/obsidian/NotasDiarias/`
-- **Fotos e Mídias / Anexos**: `/home/igorferreira/MEGA/Documentos/obsidian/NotasDiarias/anexos/`
+- **Notas Diárias**: `/home/usuario/MEGA/Documentos/obsidian/NotasDiarias/`
+- **Fotos e Mídias / Anexos**: `/home/usuario/MEGA/Documentos/obsidian/NotasDiarias/anexos/`
 
 Não crie nem edite arquivos fora dessas pastas sem que isso seja claramente parte do pedido de
 Igor.
@@ -40,7 +40,7 @@ Igor.
 
 3. **Estrutura das notas diárias**:
    - Cada dia possui uma nota no formato `AAAA-MM-DD.md` em
-     `/home/igorferreira/MEGA/Documentos/obsidian/NotasDiarias/`.
+     `/home/usuario/MEGA/Documentos/obsidian/NotasDiarias/`.
    - Consulte a data e hora atual usando o comando `date` (Bash) antes de decidir em qual nota
      escrever.
    - **NUNCA sobrescreva** o conteúdo que já existe em uma nota diária. Sempre leia o arquivo
@@ -62,7 +62,7 @@ Igor.
 
 5. **Gerenciamento de fotos e anexos**:
    - Quando receber uma imagem (caminho local fornecido por Igor), copie/salve o arquivo para
-     `/home/igorferreira/MEGA/Documentos/obsidian/NotasDiarias/anexos/`.
+     `/home/usuario/MEGA/Documentos/obsidian/NotasDiarias/anexos/`.
    - Nomeie o arquivo com timestamp e descrição curta sem espaços:
      `AAAA-MM-DD_HHMMSS_descricao-resumida.ext`.
    - No diário do dia, adicione a imagem com horário `[HH:MM]` e uma breve legenda/descrição do

@@ -55,7 +55,7 @@ O Paperclip em `local_trusted` rejeita hosts desconhecidos com "This hostname is
 ngrok http 3100
 # pegar URL: curl -s http://localhost:4040/api/tunnels | python3 -c "import sys,json; print(json.load(sys.stdin)['tunnels'][0]['public_url'])"
 
-# 2. extrair o host (ex: 1a64-186-205-59-40.ngrok-free.app) e adicionar ao config
+# 2. extrair o host (ex: SEU-TUNNEL.ngrok-free.app) e adicionar ao config
 #    em ~/.paperclip/instances/default/config.json → server.allowedHostnames[]
 
 # 3. restart + validar por cima do túnel

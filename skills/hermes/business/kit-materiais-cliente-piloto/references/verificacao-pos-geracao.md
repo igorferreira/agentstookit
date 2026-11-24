@@ -12,7 +12,7 @@ artefatos antes de reportar sucesso ao Igor:
 from hermes_tools import terminal
 from pathlib import Path
 
-root = Path('/home/igorferreira/projetos/hermes-as-service')
+root = Path('/home/usuario/projetos/hermes-as-service')
 esperados = [
     '07-apresentacoes/<NOME>.pptx',
     '07-apresentacoes/<NOME>.pdf',

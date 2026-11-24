@@ -1,1 +1,0 @@
-/home/igorferreira/.claude/skills/gstack/browse/PLAN-snapshot-dropdown-interactive.md

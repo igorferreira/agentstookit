@@ -1,6 +1,6 @@
 ---
 name: carro-fiat-punto-manutencao
-description: "Use when handling maintenance, fuel consumption tracking, mechanical diagnostics, or legal documentation for Igor's Fiat Punto ELX 2010 (plate KRK2101) under ~/MEGA/Documentos/Carros/FiatPuntoELX2010."
+description: "Use when handling maintenance, fuel consumption tracking, mechanical diagnostics, or legal documentation for Igor's Fiat Punto ELX 2010 (plate [PLACA-REDACTADA]) under ~/MEGA/Documentos/Carros/FiatPuntoELX2010."
 version: 1.0.0
 author: Hermes Agent
 license: MIT
@@ -15,11 +15,11 @@ metadata:
 
 ## Overview
 
-Skill do agente `mecanico` (apelido **Rubens**) para controlar manutenção preventiva, diagnóstico mecânico e consumo de combustível do Fiat Punto ELX 1.4 8V de Igor (placa KRK2101, RENAVAM 00133788636, ano fab./modelo 2009/2010, motor Fire Evo 1.4 8V flex).
+Skill do agente `mecanico` (apelido **Rubens**) para controlar manutenção preventiva, diagnóstico mecânico e consumo de combustível do Fiat Punto ELX 1.4 8V de Igor (placa [PLACA-REDACTADA], RENAVAM [RENAVAM-REDACTADO], ano fab./modelo 2009/2010, motor Fire Evo 1.4 8V flex).
 
 Pasta base autorizada:
 
-`/home/igorferreira/MEGA/Documentos/Carros/FiatPuntoELX2010`
+`/home/usuario/MEGA/Documentos/Carros/FiatPuntoELX2010`
 
 Perfil recomendado: `mecanico`
 
@@ -33,12 +33,12 @@ Use quando Igor mencionar:
 - barulho, luz no painel, dificuldade de ligar, ou qualquer sintoma mecânico no Punto;
 - IPVA, licenciamento, CRLV, SPVAT/DPVAT, vistoria do carro.
 
-Não use para outros veículos sem antes confirmar com Igor (esta skill é específica do Punto KRK2101).
+Não use para outros veículos sem antes confirmar com Igor (esta skill é específica do Punto [PLACA-REDACTADA]).
 
 ## Estrutura de arquivos
 
 ```text
-/home/igorferreira/MEGA/Documentos/Carros/FiatPuntoELX2010/
+/home/usuario/MEGA/Documentos/Carros/FiatPuntoELX2010/
 ├── dados-veiculo.md                    # dados fixos do CRLV — não editar sem novo documento oficial
 ├── plano-revisoes-manutencao.md        # tabela de intervalos de manutenção (referência)
 ├── manutencoes-obrigatorias-legais.md  # IPVA, licenciamento, SPVAT, vistoria (RJ)

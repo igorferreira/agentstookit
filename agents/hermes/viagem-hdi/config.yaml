@@ -24,7 +24,7 @@ agent:
 
 terminal:
   backend: local
-  cwd: /home/igorferreira/clawd
+  cwd: /home/usuario/clawd
   timeout: 180
   persistent_shell: true
   lifetime_seconds: 300

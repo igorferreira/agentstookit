@@ -94,7 +94,7 @@ As the user sends inputs (audio, text, images), process them in this order:
 
 > **Pitfall — OCR extraction:** `vision_analyze` can extract text from images with good accuracy. For tables/schedules, extract the data and format it as a Markdown table in **ANOTACOES.md**. Don't just paste the raw OCR text — structure it.
 
-> **Pitfall — Image paths:** The image path from the user's message (e.g., `/home/igorferreira/.hermes/cache/images/img_052f812b7c4d.jpg`) is the canonical path. Save a copy to the working directory with a descriptive name for long-term reference.
+> **Pitfall — Image paths:** The image path from the user's message (e.g., `/home/usuario/.hermes/cache/images/img_052f812b7c4d.jpg`) is the canonical path. Save a copy to the working directory with a descriptive name for long-term reference.
 
 ## Step 3 — Synchronize and Verify
 

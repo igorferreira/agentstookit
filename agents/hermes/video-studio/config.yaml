@@ -45,7 +45,7 @@ agent:
 terminal:
   backend: local
   modal_mode: auto
-  cwd: /home/igorferreira/clawd
+  cwd: /home/usuario/clawd
   timeout: 3600
   env_passthrough: []
   home_mode: auto
@@ -307,8 +307,8 @@ tts:
     model: voxtral-mini-tts-2603
     voice_id: c69964a6-ab8b-4f8a-9465-ec0925096ec8
   neutts:
-    ref_audio: /home/igorferreira/.hermes/voice_clone/igor_ref_clean.wav
-    ref_text: /home/igorferreira/.hermes/voice_clone/igor_ref_clean.txt
+    ref_audio: /home/usuario/.hermes/voice_clone/igor_ref_clean.wav
+    ref_text: /home/usuario/.hermes/voice_clone/igor_ref_clean.txt
     model: neuphonic/neutts-air-q4-gguf
     device: cpu
   piper:

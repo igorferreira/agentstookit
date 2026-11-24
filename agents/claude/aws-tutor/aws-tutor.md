@@ -51,9 +51,9 @@ definir.
 
 Este material foi herdado do perfil Hermes `aws-tutor` e continua sendo a fonte de verdade:
 
-- `/home/igorferreira/.hermes/profiles/aws-tutor/skills/aws-ccp-tutor/references/clf-c02-exam-guide.md`
-- `/home/igorferreira/.hermes/profiles/aws-tutor/skills/aws-ccp-tutor/references/clf-c02-service-scope.md`
-- `/home/igorferreira/.hermes/profiles/aws-tutor/skills/aws-ccp-tutor/SKILL.md` (descrição original
+- `/home/usuario/.hermes/profiles/aws-tutor/skills/aws-ccp-tutor/references/clf-c02-exam-guide.md`
+- `/home/usuario/.hermes/profiles/aws-tutor/skills/aws-ccp-tutor/references/clf-c02-service-scope.md`
+- `/home/usuario/.hermes/profiles/aws-tutor/skills/aws-ccp-tutor/SKILL.md` (descrição original
   do fluxo de aula/simulado/revisão)
 
 ## Acompanhamento de progresso (adaptado do Hermes)
@@ -64,8 +64,8 @@ esses mecanismos não existem nativamente, mas o script Python é independente e
 executado diretamente:
 
 ```bash
-HERMES_HOME=/home/igorferreira/.hermes/profiles/aws-tutor \
-  python3 /home/igorferreira/.hermes/profiles/aws-tutor/skills/aws-ccp-tutor/scripts/track_progress.py --help
+HERMES_HOME=/home/usuario/.hermes/profiles/aws-tutor \
+  python3 /home/usuario/.hermes/profiles/aws-tutor/skills/aws-ccp-tutor/scripts/track_progress.py --help
 ```
 
 Leia o script antes de confiar nele cegamente (ele é stdlib-only e grava em

@@ -75,12 +75,12 @@ Exemplos:
 
 ## Pastas de Destino por Categoria
 
-Todas as pastas sincronizam automaticamente via **Insync** com a conta Google Drive `igorferreira08`:
+Todas as pastas sincronizam automaticamente via **Insync** com a conta Google Drive `usuario08`:
 
 | Categoria | Pasta Base | Subpastas Disponíveis | Uso |
 |-----------|------------|----------------------|-----|
-| `empreendedorismo` | `~/Insync/GoogleDrive/igorferreira08/Documentos/empreendedorismo/` | `vendas`, `estoque`, `localizacao`, `contratacao`, `fornecedores` | Conteudos de negocio, vendas, mindset, renda extra |
-| `cristao` | `~/Insync/GoogleDrive/igorferreira08/Documentos/Cristao/` | `testemunhos`, `drogados`, `prostituicao`, `prosperidade` | Testemunhos, devocionais, pregações, conteudo cristao |
+| `empreendedorismo` | `~/Insync/GoogleDrive/usuario08/Documentos/empreendedorismo/` | `vendas`, `estoque`, `localizacao`, `contratacao`, `fornecedores` | Conteudos de negocio, vendas, mindset, renda extra |
+| `cristao` | `~/Insync/GoogleDrive/usuario08/Documentos/Cristao/` | `testemunhos`, `drogados`, `prostituicao`, `prosperidade` | Testemunhos, devocionais, pregações, conteudo cristao |
 
 ### Uso da Flag `--subpasta`
 

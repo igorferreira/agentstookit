@@ -8,9 +8,9 @@ from email.mime.text import MIMEText
 from email.mime.application import MIMEApplication
 
 msg = MIMEMultipart()
-msg['From'] = 'igorferreirabr@gmail.com'
+msg['From'] = 'SEU-EMAIL@gmail.com'
 msg['To'] = 'destinatario@exemplo.com'
-msg['Cc'] = 'igorferreirabr@gmail.com'   # cópia sempre
+msg['Cc'] = 'SEU-EMAIL@gmail.com'   # cópia sempre
 msg['Subject'] = 'TimeAutomático — Apresentações: <CLIENTE>'
 msg.attach(MIMEText(corpo, 'plain', 'utf-8'))
 for f in anexos:  # PDF + PPTX por cliente; 10 anexos (~2.5 MB) passam bem

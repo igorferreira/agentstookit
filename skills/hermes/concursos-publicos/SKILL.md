@@ -22,7 +22,7 @@ description: Use quando Igor pedir dossiê ou vigia de concursos.
 ## Standing rules (Igor)
 
 - **Lotação RJ only:** qualquer concurso com lotação fora do RJ é descartado e marcado `❌` na ficha — nunca sugeri-lo como oportunidade. Única exceção: polo RJ dentro de concurso nacional (ex.: Transpetro).
-- **Separar por escolaridade:** concursos de TI ficam em `~/MEGA/Documentos/carreira/concursos/ti/`; concursos de nível médio (para a Adrielly) em `concursos/segundo-grau/`. Nunca misturar as duas áreas.
+- **Separar por escolaridade:** concursos de TI ficam em `~/MEGA/Documentos/carreira/concursos/ti/`; concursos de nível médio (para a [NOME-REDACTADO]) em `concursos/segundo-grau/`. Nunca misturar as duas áreas.
 - **Sempre conferir o edital oficial antes de inscrever** — portais de concursos (pci, Estratégia, Gran, citytudo, Acelera) podem estar defasados ou divergir entre si; os dados deles são ponto de partida, não verdade.
 - Registrar prazos de inscrição abertos com destaque na resposta final — o vigia cobre só os previstos.
 

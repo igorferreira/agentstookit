@@ -5,7 +5,7 @@
 Use este template ao criar o arquivo Markdown de um novo abastecimento:
 
 ```markdown
-# Abastecimento [COMBUSTÍVEL] — Fiat Punto ELX 2010 (KRK2101)
+# Abastecimento [COMBUSTÍVEL] — Fiat Punto ELX 2010 ([PLACA-REDACTADA])
 
 ## Identificação
 
@@ -13,7 +13,7 @@ Use este template ao criar o arquivo Markdown de um novo abastecimento:
 |---|---|
 | Data | YYYY-MM-DD |
 | Veículo | Fiat Punto ELX 1.4 2010 |
-| Placa | KRK2101 |
+| Placa | [PLACA-REDACTADA] |
 | Combustível | [gasolina comum / aditivada / Shell V-Power / etanol] |
 | Posto | [nome do posto] |
 | Volume | XX L |

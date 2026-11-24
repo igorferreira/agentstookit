@@ -1,4 +1,4 @@
-# Gmail Label Audit & Merge — Validated Playbook (igorferreirabr/igorferreira08)
+# Gmail Label Audit & Merge — Validated Playbook (usuariobr/usuario08)
 
 Validated 09-11/09/2026 across ~100k emails, 2 accounts. All commands assume:
 `export DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus` (needed for secret-tool keyring).

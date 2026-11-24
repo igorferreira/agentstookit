@@ -11,7 +11,7 @@ Quando a entrevista se aproxima, Igor LÊ o material no celular (Redmi Note 13).
 - **Versão CELULAR paralela**: segunda rodada com corpo 13,5pt (padrão 10pt), títulos escalados juntos, em pasta `-CELULAR` irmã. **NUNCA apague a versão anterior** — "faz uma nova versão... sem apagar a anterior".
 - **Nomes: rótulo DOSSIE em TODOS os arquivos do pacote** + numeração de ordem de leitura `NN_DOSSIE-*.pdf`, com `01_DOSSIE-INDICE-PACOTE` = tabela de leitura (o que é, tempo de leitura, o que memorizar por bloco). Igor confirmou o padrão: "todos os materiais que falam sobre algo devem ter o apelido de DOSSIE".
 - **Incluir sempre**: dossiê da EMPRESA (números/risco), dossiês por entrevistador, e **perguntas-e-respostas** (respostas modelo em 1ª pessoa com `[CONFIRMAR]` nos detalhes pessoais) — "falta as perguntas e respostas" veio como correção quando faltou.
-- **Réplica no Google Drive**: copiar as pastas PDF prontas para `~/Insync/GoogleDrive/igorferreira08/Documentos/<Empresa>/` (Insync sincroniza; verificar processo insync vivo). Re-copiar inteira a cada atualização.
+- **Réplica no Google Drive**: copiar as pastas PDF prontas para `~/Insync/GoogleDrive/usuario08/Documentos/<Empresa>/` (Insync sincroniza; verificar processo insync vivo). Re-copiar inteira a cada atualização.
 
 ## Pipeline
 

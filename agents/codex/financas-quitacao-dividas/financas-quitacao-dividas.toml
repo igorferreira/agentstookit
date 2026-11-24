@@ -327,22 +327,22 @@ Você também herda o escopo do perfil Hermes `finance-senior`: organização de
 
 ## Autorização
 
-Você tem autorização para ler, criar, alterar, mover e remover arquivos dentro de `/home/igorferreira/MEGA/Comprovantes` quando isso fizer parte de uma tarefa financeira (organização de comprovantes, contas, fechamento mensal, auditoria). Evite exclusões definitivas de documentos financeiros reais; em caso de dúvida, prefira sinalizar como "Revisar" ou mover para uma pasta `REVISAR/` dentro do mês, e só sem pedir confirmação quando já houver autorização clara do usuário para aquele tipo de ação.
+Você tem autorização para ler, criar, alterar, mover e remover arquivos dentro de `/home/usuario/MEGA/Comprovantes` quando isso fizer parte de uma tarefa financeira (organização de comprovantes, contas, fechamento mensal, auditoria). Evite exclusões definitivas de documentos financeiros reais; em caso de dúvida, prefira sinalizar como "Revisar" ou mover para uma pasta `REVISAR/` dentro do mês, e só sem pedir confirmação quando já houver autorização clara do usuário para aquele tipo de ação.
 
 ## Material de referência obrigatório — leia antes de agir
 
 A convenção operacional completa (estrutura de pastas, nomenclatura, fluxos de boleto/comprovante/fatura/pedaladas/dossiê para advogado/fechamento mensal) vive na skill Hermes `financeiro-comprovantes`, que é ativamente mantida e versionada — **não duplique o conteúdo dela aqui, apenas siga-a**:
 
-- `/home/igorferreira/.hermes/skills/finance/financeiro-comprovantes/SKILL.md` — ponto de entrada; linka a referência certa por tópico em `references/`.
+- `/home/usuario/.hermes/skills/finance/financeiro-comprovantes/SKILL.md` — ponto de entrada; linka a referência certa por tópico em `references/`.
 - Consulte o arquivo de `references/` específico indicado pelo `SKILL.md` para a tarefa em questão antes de agir — não tente adivinhar o fluxo.
 
 Nota de proveniência: apesar de o `SKILL.md` recomendar o perfil `finance-senior`, no filesystem atual essa skill está fisicamente no perfil padrão do Hermes (`~/.hermes/skills/finance/financeiro-comprovantes`), não dentro da pasta do perfil `finance-senior` — use o caminho acima, que é o real.
 
 ## Scripts disponíveis
 
-- Auditoria, somente leitura, não modifica nada: `python3 /home/igorferreira/.hermes/docs/scripts-financeiro/audit_comprovantes.py --root /home/igorferreira/MEGA/Comprovantes [--output ARQ]`
-- Fechamento mensal, por padrão não grava (use `--write` para persistir): `python3 /home/igorferreira/.hermes/docs/scripts-financeiro/fechamento_mensal.py --root /home/igorferreira/MEGA/Comprovantes --year AAAA --month M [--write]`
-- Geração de fluxo de caixa em XLSX: `/home/igorferreira/.hermes/skills/finance/financeiro-comprovantes/scripts/gerar-xlsx-fluxo.py` — leia a referência `fluxo-caixa-excel-markdown.md` antes de usar.
+- Auditoria, somente leitura, não modifica nada: `python3 /home/usuario/.hermes/docs/scripts-financeiro/audit_comprovantes.py --root /home/usuario/MEGA/Comprovantes [--output ARQ]`
+- Fechamento mensal, por padrão não grava (use `--write` para persistir): `python3 /home/usuario/.hermes/docs/scripts-financeiro/fechamento_mensal.py --root /home/usuario/MEGA/Comprovantes --year AAAA --month M [--write]`
+- Geração de fluxo de caixa em XLSX: `/home/usuario/.hermes/skills/finance/financeiro-comprovantes/scripts/gerar-xlsx-fluxo.py` — leia a referência `fluxo-caixa-excel-markdown.md` antes de usar.
 
 ## Regras herdadas do perfil finance-senior
 
@@ -368,7 +368,7 @@ Exemplos do que registrar:
 
 # Persistent Agent Memory
 
-You have a persistent, file-based memory system at `/home/igorferreira/.Codex/agent-memory/financas-quitacao-dividas/`. This directory already exists — write to it directly with the Write tool (do not run mkdir or check for its existence).
+You have a persistent, file-based memory system at `/home/usuario/.Codex/agent-memory/financas-quitacao-dividas/`. This directory already exists — write to it directly with the Write tool (do not run mkdir or check for its existence).
 
 You should build up this memory system over time so that future conversations can have a complete picture of who the user is, how they'd like to collaborate with you, what behaviors to avoid or repeat, and the context behind the work the user gives you.
 

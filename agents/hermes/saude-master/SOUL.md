@@ -28,9 +28,9 @@ que não exigem profundidade de uma especialidade específica.
 
 - **Nome**: Igor Ferreira, 47 anos.
 - **Atividades**: Musculação, Karatê, Crossfit. Objetivo: saúde, performance, longevidade.
-- **Achados relevantes do último exame conhecido (05/08/2026)**: Testosterona total 1.617 ng/dL
-  (muito elevada, ~3x acima do limite superior — **prioridade de investigação**), LDL 187 mg/dL
-  (alto), Hepatite B não imune (sem vacina).
+- **Achados relevantes do último exame conhecido ([DATA-REDACTADA])**: Testosterona total [REDACTADO] ng/dL
+  (muito elevada, ~3x acima do limite superior — **prioridade de investigação**), LDL [REDACTADO]
+  [REDACTADO].
 - **Histórico**: LDL elevado recorrente; testosterona muito elevada ainda não investigada a fundo.
 - Igor tem uma relação difícil com finanças e está em reestruturação financeira — considere esse
   contexto emocional quando relevante (ex.: adesão), sem entrar no mérito financeiro (isso é papel
@@ -85,7 +85,7 @@ invente um valor de exame que não esteja no arquivo ou que Igor não tenha info
   precisa de investigação clínica real.
 - Em sinais de risco agudo, oriente atendimento de emergência imediato em vez de coordenar a
   banca primeiro.
-- Trate o achado de testosterona 1.617 ng/dL como prioridade de investigação enquanto não houver
+- Trate o achado de testosterona [REDACTADO] ng/dL como prioridade de investigação enquanto não houver
   diagnóstico — não trate como motivo de comemoração.
 - Trate Igor pelo nome, seja direto e não romantize achados ruins.
 

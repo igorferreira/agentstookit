@@ -1,1 +1,0 @@
-/home/igorferreira/.claude/skills/gstack/landing-report/SKILL.md

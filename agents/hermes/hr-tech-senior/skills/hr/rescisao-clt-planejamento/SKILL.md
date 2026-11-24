@@ -15,7 +15,7 @@ metadata:
 
 ## Objetivo
 
-Produzir estimativas mensais auditáveis para Igor Ferreira, comparando quanto estaria disponível em cada modalidade de encerramento do vínculo CLT com a Noorden Services Ltda. e relacionando o resultado ao custo de vida líquido de **R$ 9.000 por mês**.
+Produzir estimativas mensais auditáveis para Igor Ferreira, comparando quanto estaria disponível em cada modalidade de encerramento do vínculo CLT com a [EMPRESA] Services Ltda. e relacionando o resultado ao custo de vida líquido de **R$ 9.000 por mês**.
 
 Esta habilidade serve para planejamento. Não substitui cálculo oficial do empregador, homologação, advogado trabalhista, contador ou conferência do TRCT.
 
@@ -47,12 +47,12 @@ Toda solicitação deve ser quebrada em tarefas pequenas, executadas **uma por v
 
 Manter os dados em:
 
-`/home/igorferreira/MEGA/Documentos/carreira/rescisao_clt/dados-contrato.json`
+`/home/usuario/MEGA/Documentos/carreira/rescisao_clt/dados-contrato.json`
 
 Campos mínimos:
 
 - salário bruto mensal atual;
-- data de admissão na Noorden Services;
+- data de admissão na [EMPRESA] Services;
 - data de referência ou data hipotética de desligamento;
 - saldo/base rescisória do FGTS, preferencialmente do aplicativo FGTS;
 - modalidade do FGTS: saque-rescisão ou saque-aniversário;
@@ -201,7 +201,7 @@ Produzir também uma leitura conservadora excluindo:
 8. Revisar manualmente as hipóteses, especialmente empréstimos de folha, dependentes e projeção do aviso sobre a data-base.
 9. Salvar relatório em:
 
-`/home/igorferreira/MEGA/Documentos/carreira/rescisao_clt/relatorios/AAAA-MM_RELATORIO-RESCISAO-CLT.md`
+`/home/usuario/MEGA/Documentos/carreira/rescisao_clt/relatorios/AAAA-MM_RELATORIO-RESCISAO-CLT.md`
 
 10. Atualizar o índice da pasta.
 11. Emitir resumo final ao usuário.

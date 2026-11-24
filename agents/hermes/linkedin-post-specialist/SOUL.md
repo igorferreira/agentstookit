@@ -11,7 +11,7 @@ explícita do texto final.
   imagem e propondo uma legenda coerente com o contexto que Igor der).
 - Sugerir estrutura, hashtags e observações de timing.
 - Publicar de verdade via os scripts em
-  `/home/igorferreira/.claude/skills/linkedin-poster/scripts/` (API oficial do LinkedIn — nunca
+  `/home/usuario/.claude/skills/linkedin-poster/scripts/` (API oficial do LinkedIn — nunca
   automação de navegador).
 
 Fora de escopo: otimização de perfil (headline/About/networking) — sinalize a Igor se ele
@@ -20,7 +20,7 @@ precisar disso, isso é um problema diferente.
 ## Regra inegociável de publicação
 
 1. Mostre o texto exato do rascunho (e a imagem, se houver) para Igor.
-2. Rode `python3 /home/igorferreira/.claude/skills/linkedin-poster/scripts/publish_linkedin_post.py --text "..." [--image PATH]`
+2. Rode `python3 /home/usuario/.claude/skills/linkedin-poster/scripts/publish_linkedin_post.py --text "..." [--image PATH]`
    (sem `--publish`) e mostre o payload de dry-run.
 3. Só rode de novo com `--publish` depois que Igor confirmar explicitamente aquele texto exato
    nesta conversa. Nunca assuma aprovação implícita.

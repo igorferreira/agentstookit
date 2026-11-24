@@ -199,14 +199,14 @@ Usar `delegate_task` com batch de até 3 tarefas. Cada subagente recebe:
 
 ## Padrão: Rafael (relacionamento)
 
-Quando a tarefa envolver Adrielly:
+Quando a tarefa envolver [NOME-REDACTADO]:
 
 1. Confirmar e rotear para o perfil Hermes real `relationship-senior`. A skill `conselheiro-relacionamento` fornece metodologia/voz ao perfil que a carrega; isso não prova que o perfil especializado foi executado.
 2. Em uma segunda opinião independente sobre exports, exigir que o revisor examine os ZIPs originais, reconstrua a cronologia e formule uma leitura preliminar antes de consultar o relatório anterior; depois comparar concordâncias e divergências com citações e limites explícitos.
 3. Se o perfil não iniciar, inspecionar o card exato e seus eventos/runs; não repetir a mesma falha nem alterar credenciais/configuração para contornar conflito. Não substituir silenciosamente por `delegate_task`: usar fallback somente com autorização explícita para um substituto e identificá-lo como fallback, nunca como Rafael real. Se não houver autorização para substituição, manter bloqueado e perguntar se Igor prefere aguardar/reparar o perfil ou aceitar uma análise alternativa. Se o critério de aceite exigir o perfil real, manter o card bloqueado até o perfil executar ou Igor alterar o critério.
 4. Produzir rascunho em `~/clawd/` apenas como staging; mover relatório pessoal verificado para `~/MEGA/Documentos/relacionamentos/adrielly/` na subpasta canônica de conversas. Atualizar `INDEX.md`, `DIARIO-RELACIONAMENTO-ADRIELLY.md`, `TAREFAS.md` e a linha correspondente em `PEDIDOS.md`, preservando o mesmo ID Kanban.
 
-**Regra de ouro:** Igor consulta Rafael antes de qualquer ação com Adrielly. Se ele já interagiu com ela, o Rafael analisa DEPOIS, mas a regra para próximas ações continua valendo.
+**Regra de ouro:** Igor consulta Rafael antes de qualquer ação com [NOME-REDACTADO]. Se ele já interagiu com ela, o Rafael analisa DEPOIS, mas a regra para próximas ações continua valendo.
 
 ## Padrão: "faz o que você consegue fazer"
 
@@ -226,7 +226,7 @@ O campo `context` precisa conter TUDO que o subagente precisa saber. Não refere
 Use links para arquivos de detalhe em vez de duplicar informação e mantenha o painel diário enxuto. Não remova automaticamente tarefas concluídas, IDs antigos ou histórico existente só para reduzir o tamanho: arquive ou limpe apenas com uma regra explícita já definida para o arquivo, porque apagar histórico quebra rastreabilidade e pode invalidar links.
 
 ### Rafael precisa do contexto REAL
-Adrielly é um tópico sensível. Se o Rafael receber informação incompleta na primeira análise, fazer REANÁLISE com os fatos completos (mensagens literais, status, timing). Nunca manter uma análise baseada em premissas erradas.
+[NOME-REDACTADO] é um tópico sensível. Se o Rafael receber informação incompleta na primeira análise, fazer REANÁLISE com os fatos completos (mensagens literais, status, timing). Nunca manter uma análise baseada em premissas erradas.
 
 ### Arquivos de entrega no workspace
 `~/clawd/` é área de trabalho e pode ser usada como **staging temporário**, não como destino pessoal permanente. Quando uma entrega for documento pessoal/profissional do Igor:

@@ -15,10 +15,10 @@ Especialista técnico em GPUs e placas de vídeo OTIMIZADAS PARA INFERÊNCIA LOC
 - `comparativos.md` — matrizes de decisão técnicas
 
 ## Perfil do Usuário
-**Igor dos Santos Ferreira**
+**[NOME-REDACTADO]**
 - Orçamento: R$ 2.000,00 (parcelado)
 - Objetivo: rodar LLMs localmente na própria máquina
-- Uso adicional: PC também serve para dev/work (HDI, Noorden)
+- Uso adicional: PC também serve para dev/work (HDI, [EMPRESA])
 - Plataforma: Linux Ubuntu (kernel 6.8) — roda ROCm nativamente
 
 ## REGRAS DE SEGURANÇA

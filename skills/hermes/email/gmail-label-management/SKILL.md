@@ -33,7 +33,7 @@ typ, data = M.search(None, "X-GM-RAW", "from:noorden.com.br")
 ids = data[0].split()
 for i in range(0, len(ids), 150):
     b = b",".join(x for x in ids[i:i+150])
-    M.store(b, '+X-GM-LABELS', '("Clientes/Noorden/Correspondencia")')
+    M.store(b, '+X-GM-LABELS', '("Clientes/[EMPRESA]/Correspondencia")')
     M.store(b, '-X-GM-LABELS', '("OldLabel")')   # optional removal
     time.sleep(0.15)
 M.expunge()
@@ -70,7 +70,7 @@ ids = [x.decode() for x in d[0].split()]
 1. Root labels max **17**.
 2. Every label needs ≥1 email. For sublabels: associate an email to EVERY level (root, mid, leaf). One email may serve all levels of the same branch.
 3. **NEVER delete a label that has sublabels, even if it has 0 direct emails** (Igor's rule, 10/09/2026). An empty parent with children sustains the tree — deleting it orphans the children (this caused the 16 missing-parents incident). Only delete a label when it has NO emails AND NO sublabels (whole branch empty). This supersedes the old "empty = deletable" rule for parents.
-4. Break hyphens in leaf names into directories: `Carros-Fiat-Punto-ELX` → `Carros/Fiat/Punto/ELX` (ALL hyphens, user-confirmed even when deepening paths like `Carros/Fiat/Punto/ELX/KRK2101`).
+4. Break hyphens in leaf names into directories: `Carros-Fiat-Punto-ELX` → `Carros/Fiat/Punto/ELX` (ALL hyphens, user-confirmed even when deepening paths like `Carros/Fiat/Punto/ELX/[PLACA-REDACTADA]`).
 5. No duplicates; same-named labels in different parents (`Compras`) resolved by full-path hierarchy.
 6. Label names without accents.
 7. Every email must end inside some label; INBOX ends at 0.
