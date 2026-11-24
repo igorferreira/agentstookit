@@ -10,7 +10,8 @@
 #        python3 build_pdfs_leitura.py celular   (versao 13.5pt, pasta -CELULAR)
 # IMPORTANTE: titulos da capa sao divs (.t-topo), NUNCA h2/h3 — h* vira bookmark do outline.
 # Renderizador: use o binario que tiver weasyprint (aqui /usr/local/bin/python3.12); fallback = pandoc + chrome headless.
-import subprocess, os, sys
+import subprocess, os, sys, tempfile
+TMPDIR = tempfile.mkdtemp()
 
 Z = os.path.expanduser("~/MEGA/Documentos/oportunidades/Zenvia")
 CELULAR = len(sys.argv) > 1 and sys.argv[1] == "celular"
@@ -140,7 +141,7 @@ for name in DOCS:
     topo, adendo = TOPOS[name]
     title = name.replace("20261121_", "").replace("20261117_", "").replace("-", " ")
     html_full = TPL.format(title=title, css=CSS, topo=topo, body=body, adendo=adendo)
-    html_path = "/tmp/" + name + ".html"
+    html_path = os.path.join(TMPDIR, name + ".html")
     pdf_path = os.path.join(OUT, name + ".pdf")
     with open(html_path, "w") as f:
         f.write(html_full)
