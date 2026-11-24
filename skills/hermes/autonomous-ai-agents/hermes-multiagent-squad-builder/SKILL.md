@@ -17,7 +17,7 @@ one narrow capability.
 
 Existing examples of this pattern already built in this install — read one as a live
 reference before starting a new one: `agente-orquestrador-sindico-virtual` + `agente-*`
-(condomínio, Condomínio Mansões Eldorado), `hdi-banca-engenharia-ia` (engenharia HDI).
+(condomínio, Condomínio Residencial), `hdi-banca-engenharia-ia` (engenharia HDI).
 
 ## Architecture pattern (validated 04/09/2026 building the Síndico Virtual squad)
 

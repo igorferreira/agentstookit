@@ -1,1 +1,0 @@
-/home/usuario/.claude/skills/gstack/design-html/SKILL.md

@@ -36,7 +36,7 @@ python3 ~/.hermes/skills/finance/financeiro-mercado/scripts/decodificar_nfce.py 
 
 ```json
 {
-  "mercado": "Carrefour Barra",
+  "mercado": "Carrefour",
   "data": "2026-09-05",
   "valor_total": 123.45,
   "chave_nfce": "35260812345678901234567890123456789012AB",
@@ -94,13 +94,13 @@ data: 2026-09-05
 tipo: comprovante
 subtipo: nota-fiscal-mercado
 valor: 123.45
-mercado: Carrefour Barra
+mercado: Carrefour
 chave_nfce: 35260812345678901234567890123456789012AB
 fonte_extracao: sefaz
 status: processado
 ---
 
-# Nota Fiscal — Carrefour Barra — R$ 123.45
+# Nota Fiscal — Carrefour — R$ 123.45
 
 **Data**: 2026-09-05
 **Valor Total**: R$ 123.45
@@ -131,8 +131,8 @@ Adicionar uma linha por item no arquivo:
 
 ```csv
 data,mercado,produto_cru,quantidade,unidade,valor_unitario,valor_total,chave_nfce,ref_comprovante
-2026-09-05,Carrefour Barra,Arroz Tipo 1 5kg,1,UN,28.90,28.90,35260812345678901234567890123456789012AB,2026-09-05_NOTA-MERCADO-CARREFOUR-BARRA-R$123.45
-2026-09-05,Carrefour Barra,Leite Integral 1L,3,UN,4.50,13.50,35260812345678901234567890123456789012AB,2026-09-05_NOTA-MERCADO-CARREFOUR-BARRA-R$123.45
+2026-09-05,Carrefour,Arroz Tipo 1 5kg,1,UN,28.90,28.90,35260812345678901234567890123456789012AB,2026-09-05_NOTA-MERCADO-CARREFOUR-BARRA-R$123.45
+2026-09-05,Carrefour,Leite Integral 1L,3,UN,4.50,13.50,35260812345678901234567890123456789012AB,2026-09-05_NOTA-MERCADO-CARREFOUR-BARRA-R$123.45
 ```
 
 ### 5. Atualizar `INDEX.md`
@@ -159,7 +159,7 @@ Manter um índice simples em:
 
 ## 🏪 Mercados
 
-### Carrefour Barra
+### Carrefour
 - **Endereço**: Av. das Américas, 3000
 - **Visitas**: 8
 - **Ticket Médio**: R$ 125.30

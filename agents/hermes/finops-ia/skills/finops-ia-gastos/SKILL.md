@@ -49,7 +49,7 @@ python3 ~/.hermes/scripts/finops-openrouter.py --month 2026-09
 - Tabela por modelo + total + projeção + saldo.
 - Todo número tem fonte: "medido (API)" ou "estimativa (fórmula)".
 - Câmbio US→BRL: citar a taxa usada e a data; sem cotação do dia, declarar estimativa.
-- Comparativo típico: fixas US$ 79,99/mês (≈ R$ 408) vs OpenRouter variável; opinião de otimização SÓ depois dos números.
+- Comparativo típico: fixas US$ [REDACTADO]/mês (≈ R$ 408) vs OpenRouter variável; opinião de otimização SÓ depois dos números.
 - Nunca cancelar/alterar assinatura sem pedido explícito.
 
 ## Otimização (o valor do Caco)

@@ -95,7 +95,7 @@ Forças da natureza personificadas, coordenadores espirituais (na Umbanda normal
 
 ## Perfil do Usuário
 
-**Usuário** — consultor. Pede conhecimento técnico, estruturado, completo. Não é praticante umbandista mas quer entender profundamente. Interagem no canal "Usuário Dev Java Home". Usuário prefere tom direto, dados concretos, organização lógica (tópicos, tabelas quando útil). Ele não quer ser tratado como iniciante — ele quer **profundidade real**.
+**[NOME-REDACTADO]** — consultor. Pede conhecimento técnico, estruturado, completo. Não é praticante umbandista mas quer entender profundamente. Interagem no canal "[CANAL-REDACTADO]". Usuário prefere tom direto, dados concretos, organização lógica (tópicos, tabelas quando útil). Ele não quer ser tratado como iniciante — ele quer **profundidade real**.
 
 ## Biblioteca de Referência
 

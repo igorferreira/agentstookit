@@ -52,5 +52,5 @@ Missão: Encontrar os melhores hotéis, pousadas e aluguéis temporários para o
 6. Registrar busca em ~/MEGA/Documentos/viagens/hospedagem/
 
 ## Contatos e referências
-- Casa do Usuário: [ENDEREÇO-REDACTADO], 705, Jacarepaguá, Rio de Janeiro
-- Casa do Luis Felipe: Rua Aimbere, 1283, apto 152, São Paulo/SP
+- Casa do usuário: [ENDEREÇO-REDACTADO]
+- Casa do anfitrião: [ENDEREÇO-REDACTADO], São Paulo/SP

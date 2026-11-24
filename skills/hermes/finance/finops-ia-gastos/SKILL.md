@@ -39,9 +39,9 @@ secret-tool store --label=OpenRouter service hermes-openrouter account usuario
 | Claude | Pro | 20,00 | ~102,00 |
 | Gemini | Advanced | 19,99 | ~101,95 |
 | Manus | Pro Entry | 20,00 | ~102,00 |
-| **TOTAL FIXO** | | **US$ 79,99** | **~R$ 408** |
+| **TOTAL FIXO** | | **US$ [REDACTADO]** | **~R$ [REDACTADO]** |
 
-Valores em R$ foram conferidos contra `~/MEGA/Documentos/financas_bancos/ASSINATURAS.md` (última atualização 19/09/2026: cada uma ~R$ 101,9x). Confirme na fatura do cartão quando pedir número exato.
+Valores em R$ foram conferidos contra `~/MEGA/Documentos/financas_bancos/ASSINATURAS.md` (última atualização 19/09/2026: cada uma ~R$ [REDACTADO]). Confirme na fatura do cartão quando pedir número exato.
 
 ## API OpenRouter — referência
 
@@ -96,7 +96,7 @@ Saída: tabela mensal de custo por modelo + total + projeção do mês + saldo O
 
 ## Comparador assinaturas vs OpenRouter
 
-Com os dois números na mão (fixo US$ 79,99 + variável OpenRouter do mês), avalie:
+Com os dois números na mão (fixo US$ [REDACTADO] + variável OpenRouter do mês), avalie:
 
 1. **Custo total de IA/mês** = fixo + variável, em US$ e R$ (informar câmbio/data).
 2. **Vale plano?** Se o gasto mensal do OpenRouter com UM modelo premium se aproximar do preço da assinatura equivalente dele (ex.: US$ 20), apontar a assinatura como provável melhor custo/benefício para aquele uso — mas conferir limites de uso da assinatura antes de afirmar.

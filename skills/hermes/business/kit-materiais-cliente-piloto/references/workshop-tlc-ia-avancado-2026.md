@@ -2,7 +2,7 @@
 
 Fonte: workshop-ia.techleads.club/v3 — extraído 04/09/2026 (arquivo canônico em
 `~/projetos/hdi/Arquitetura/2026-09-04_WORKSHOP-TLC-IA-AVANCADO-DOSSI-COMPLETO.md`).
-Condensado para uso futuro em materiais de arquitetura de IA (HDI e similares).
+Condensado para uso futuro em materiais de arquitetura de IA ([EMPRESA] e similares).
 
 ## Evento
 - 12-13/set/2026, 10h-17h, Zoom, 10h/2 dias/7 módulos, R$37. Público: devs sêniores/Tech Leads/Staff/EM em codebases 100k+ linhas.
@@ -29,7 +29,7 @@ Dia 2 "Sistemas e arquitetura na era da IA": (4) O novo Dev — atrofia de skill
 - Felipe Adamoli — Co-founder TLC, ex-nav9 (+140 projetos, SBT/Caju)
 - Felipe Rodrigues — Staff AI Engineer BHub, criador Agent Skills e linkedin-mcpserver, Cursor Ambassador, líder Grupo Pesquisa IA TLC
 - Rogério Chaves — fundador LangWatch (LLMOps/evals, €1M, ex-Booking.com), LangStream/BMO open-source
-- Julio Santos — Staff Engineer iFood
+- Julio Santos — Staff Engineer [APP]
 - William Fernandes — PayPal Risk & Fraud, testa SpecKit/OpenSpec/TLC Spec Driven
 
 ## Materiais bônus (o formato que converte)

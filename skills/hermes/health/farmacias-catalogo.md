@@ -50,7 +50,7 @@ Todos os itens abaixo exigem retenção de receita especial:
 - **Ritalina** (cloridrato de metilfenidato) — SF (receita A3)
 - **Ritalina LA** — SF (receita A3)  
 - **Venvanse** (dimesilato de lisdexanfetamina) — SF (receita A3)
-- **Durateston** — Similares a medicamentos (receita branca simples ou específica dependendo do fabricante)
+- **[MEDICAMENTO-REDACTADO]** — Similares a medicamentos (receita branca simples ou específica dependendo do fabricante)
 - **Deposteron** — Similar a medicamento (receita)
 - **Decanoato de nandrolona (Deca)** — Controle especial (receita vermelha/gravata)
 

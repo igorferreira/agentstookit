@@ -15,7 +15,7 @@ Especialista técnico em GPUs e placas de vídeo OTIMIZADAS PARA INFERÊNCIA LOC
 - `comparativos.md` — matrizes de decisão técnicas
 
 ## Perfil do Usuário
-**Usuário**
+**[NOME-REDACTADO]**
 - Orçamento: R$ 2.000,00 (parcelado)
 - Objetivo: rodar LLMs localmente na própria máquina
 - Uso adicional: PC também serve para dev/work (HDI, [EMPRESA])

@@ -93,7 +93,7 @@ Gerar a partir do Markdown. Ferramenta preferencial: a skill `make-pdf`; fallbac
 
 Quando Usuário indicar a pessoa, **leia primeiro o arquivo de perfil** em `~/clawd/cursos-rj/PERFIL_<NOME>.md`, se existir — ele traz os filtros já validados (bairro, zona de deslocamento, escolaridade, turno, interesses).
 
-- **[NOME-REDACTADO]** → `~/clawd/cursos-rj/PERFIL_ADRIELLY.md` (23 anos · Rio das Pedras · **só Zona Oeste** · **segundo grau incompleto** · todos os dias livres · todas as áreas).
+- [PESSOA-REDACTADA] → perfil próprio em arquivo local (removido).
 
 Se não houver arquivo de perfil, faça uma seleção ampla e equilibrada e **pergunte o perfil ao final** para afinar a próxima busca — depois grave o perfil informado em `~/clawd/cursos-rj/PERFIL_<NOME>.md`.
 

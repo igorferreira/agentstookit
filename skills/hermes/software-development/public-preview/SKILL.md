@@ -57,7 +57,7 @@ Use a Python script or `sed` to replace any existing base URL with the new publi
 ```python
 import re, pathlib
 
-old_base = "https://old-domain.ngrok-free.app"
+old_base = "https://SEU-TUNNEL.ngrok-free.app"
 new_base = "https://the-new-url.trycloudflare.com"
 dist_root = pathlib.Path("apps/web/dist")
 

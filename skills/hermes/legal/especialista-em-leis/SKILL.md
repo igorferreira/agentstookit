@@ -33,7 +33,7 @@ Responde: "o que muda na vida do cara médio"
 **CARROSSEL**
 - Capa: título chamativo + emoji (ex: "Esse PL pode estragar seu PIX 🤑📉")
 - Slides 1-6: explicar ponto a ponto, max 3 linhas/slide
-- Usar analogias (tipo pizza, pedido iFood, WhatsApp)
+- Usar analogias (tipo pizza, pedido [APP], WhatsApp)
 - Incluir dados reais (valores, percentuais)
 - Último slide: resumo rápido + pergunta pro seguidor
 - Legenda sugerida com CTA + hashtags (#CongressoExplicado #LeiSemJuridiques)

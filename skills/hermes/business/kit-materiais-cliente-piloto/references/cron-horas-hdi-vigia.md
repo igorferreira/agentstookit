@@ -1,7 +1,7 @@
-# Vigia de horas HDI + pitfall de cron (05/09/2026)
+# Vigia de horas [EMPRESA] + pitfall de cron (05/09/2026)
 
 ## O vigia
-Job cron `85e92800ae50` — "📋 [EMPRESA]/HDI — Conferir horas lançadas (semanal)", sexta 17h (`0 17 * * 5`).
+Job cron `85e92800ae50` — "📋 [EMPRESA]/[EMPRESA] — Conferir horas lançadas (semanal)", sexta 17h (`0 17 * * 5`).
 - Lê a planilha do mês corrente em `~/MEGA/Documentos/trabalho_projetos_ti/timesheets/` (padrão `Controle horas [EMPRESA] - <MÊS> <ANO> - <nome-do-usuario>.xlsx`).
 - Confere seg–sex da semana corrente: 8h/dia útil, feriados SP não recebem horas.
 - Reporta no Telegram: dias OK ✅, faltando ⚠️ (dia da semana + data). NUNCA edita a planilha (só leitura).

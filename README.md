@@ -24,7 +24,22 @@ agentstookit/
 
 ## Segurança
 
-Antes da publicação, todo o repositório passou por varredura automatizada de segredos (chaves de API, tokens, JWTs, chaves privadas, credenciais, dados pessoais). Os achados foram triados um a um: todos os padrões detectados são placeholders de documentação ou fixtures de teste — **nenhum segredo real**. Dados pessoais (CPF) foram mascarados.
+Antes da publicação, todo o repositório passou por **três varreduras independentes** de segurança (scanner automatizado + auditoria ofensiva): chaves de API, tokens, JWTs, chaves privadas, credenciais, dados pessoais e financeiros — zero segredos reais, zero dados pessoais. Skills e agentes construídos em torno de contexto pessoal do autor foram removidos (não fazem sentido público).
+
+## Skills e ferramentas de terceiros usados
+
+As skills abaixo **não estão neste repositório** (são públicas nos projetos originais) — são citadas porque são parte do ecossistema usado pelos agentes:
+
+- **gstack** (Garry Tan) — suíte de engenharia (browse, make-pdf, ship...)
+- **Skills oficiais Anthropic** (`anthropics/skills`) — docx, pptx, xlsx, pdf, canvas-design, algorithmic-art, theme-factory, webapp-testing, mcp-builder...
+- **Superpowers** (Jesse Vincent / obra) — brainstorming, writing-plans, TDD, systematic-debugging...
+- **claude-mem** (thedotmack) — memória persistente cross-session
+- **daytrader** (jakeschincariol) — suíte de trading (trader-alerts, scanner...)
+- **wshobson/agents** — devops-engineer, mobile-developer, python-pro
+- **OpenMontage** — suíte de produção de vídeo (ffmpeg, whisperx, color-grading...)
+- **Vercel** — web-interface-guidelines, react-best-practices
+- **better-auth**, **impeccable** (pbakaus), **last30days**, **osv-ui**, **caveman**, **Archify**, **claude-api**, **humanizer**
+- **Built-ins de plataforma**: Hermes (Nous Research), Codex CLI (OpenAI)
 
 ## Licença
 

@@ -8,11 +8,11 @@
 | Gemini | Advanced | US$ 19,99 | R$ 101,89 | Ativo |
 | Claude | Pro | US$ 20,00 | R$ 101,94 | Ativo |
 | Manus | Pro Entry | US$ 20,00 | R$ 101,94 | Ativo |
-| **TOTAL** | | **US$ 79,99** | **R$ 407,71** | |
+| **TOTAL** | | **US$ [REDACTADO]** | **R$ 407,71** | |
 
 ## Regras
 
 - Atualizar este arquivo SEMPRE que Usuário contratar, cancelar ou mudar plano — com data e fonte.
 - Não cancelar/alterar nada sem pedido explícito do Usuário.
 - Valores em R$ vêm da fatura do cartão (não converter na mão quando houver valor real).
-- O comparativo mensal do Caco usa: fixas US$ 79,99 + OpenRouter variável (medido via API).
+- O comparativo mensal do Caco usa: fixas US$ [REDACTADO] + OpenRouter variável (medido via API).

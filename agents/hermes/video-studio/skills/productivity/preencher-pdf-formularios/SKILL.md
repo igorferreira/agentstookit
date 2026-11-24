@@ -10,7 +10,7 @@ Preenche formulários PDF que NÃO têm campos editáveis, sobrepondo texto (fon
 ## Quando usar
 - Formulário em PDF que é imagem/texto (requerimentos, cadastros, fichas)
 - Preencher com dados do Usuário e gerar versão preenchida
-- Ex: Requerimento Geral do Simplifica Maricá, cadastros de órgãos, fichas bancárias
+- Ex: Requerimento Geral do Simplifica [REDACTADO], cadastros de órgãos, fichas bancárias
 
 ## Requisitos
 - Python 3.12 com PyMuPDF (fitz) e Pillow: `pip install PyMuPDF Pillow`
