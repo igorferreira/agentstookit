@@ -2,7 +2,7 @@
 
 _Banca jurídica: 40+ especialidades do Direito brasileiro (tributário, penal, trabalhista, LGPD, IA...)_
 
-**Como usar + exemplos de prompts:** [PROMPTS.md](../../PROMPTS.md)
+**Como usar + exemplos de prompts:** [PROMPTS.md](../../PROMPTS.md) · **Instalação:** [INSTALL.md](../../INSTALL.md)
 
 
 **165 agentes** (55 únicos × plataformas)

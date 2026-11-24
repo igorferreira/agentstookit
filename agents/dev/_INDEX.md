@@ -2,7 +2,7 @@
 
 _Engenharia de software: squads de desenvolvimento, arquitetura, Java/.NET/Python, DevSecOps, Linux, infra_
 
-**Como usar + exemplos de prompts:** [PROMPTS.md](../../PROMPTS.md)
+**Como usar + exemplos de prompts:** [PROMPTS.md](../../PROMPTS.md) · **Instalação:** [INSTALL.md](../../INSTALL.md)
 
 
 **97 agentes** (38 únicos × plataformas)

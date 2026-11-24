@@ -2,7 +2,7 @@
 
 _Pesquisa, comparação de preços e dossiês: celulares, perfumes, hotéis, placas, cursos, Instagram_
 
-**Como usar + exemplos de prompts:** [PROMPTS.md](../../PROMPTS.md)
+**Como usar + exemplos de prompts:** [PROMPTS.md](../../PROMPTS.md) · **Instalação:** [INSTALL.md](../../INSTALL.md)
 
 
 **18 agentes** (10 únicos × plataformas)

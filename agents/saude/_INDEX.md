@@ -2,7 +2,7 @@
 
 _Banca multidisciplinar de saúde: nutrologia, cardiologia, endocrinologia, preparação física, psicologia esportiva_
 
-**Como usar + exemplos de prompts:** [PROMPTS.md](../../PROMPTS.md)
+**Como usar + exemplos de prompts:** [PROMPTS.md](../../PROMPTS.md) · **Instalação:** [INSTALL.md](../../INSTALL.md)
 
 
 **47 agentes** (16 únicos × plataformas)

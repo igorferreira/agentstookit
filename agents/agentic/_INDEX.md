@@ -2,7 +2,7 @@
 
 _Meta-agentes: construção, governança e operação de ecossistemas de agentes (Hermes, OpenClaw, Copilot)_
 
-**Como usar + exemplos de prompts:** [PROMPTS.md](../../PROMPTS.md)
+**Como usar + exemplos de prompts:** [PROMPTS.md](../../PROMPTS.md) · **Instalação:** [INSTALL.md](../../INSTALL.md)
 
 
 **4 agentes** (3 únicos × plataformas)

@@ -2,7 +2,7 @@
 
 _Negócios, carreira, RH, produto e operações (condomínio, viagem corporativa, salários de mercado)_
 
-**Como usar + exemplos de prompts:** [PROMPTS.md](../../PROMPTS.md)
+**Como usar + exemplos de prompts:** [PROMPTS.md](../../PROMPTS.md) · **Instalação:** [INSTALL.md](../../INSTALL.md)
 
 
 **15 agentes** (6 únicos × plataformas)

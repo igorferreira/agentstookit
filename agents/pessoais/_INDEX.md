@@ -2,7 +2,7 @@
 
 _Utilidades do dia a dia: agenda, casa, religião, relacionamento, diário, horóscopo_
 
-**Como usar + exemplos de prompts:** [PROMPTS.md](../../PROMPTS.md)
+**Como usar + exemplos de prompts:** [PROMPTS.md](../../PROMPTS.md) · **Instalação:** [INSTALL.md](../../INSTALL.md)
 
 
 **12 agentes** (7 únicos × plataformas)

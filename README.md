@@ -2,7 +2,7 @@
 
 Coleção de **370 agentes** e dezenas de skills prontas para as plataformas **Hermes**, **Codex** e **Claude** — organizados por **domínio de conhecimento**, com um diretório autocontido por agente.
 
-> Exemplos de prompts prontos para cada domínio: **[PROMPTS.md](PROMPTS.md)**
+> Exemplos de prompts prontos para cada domínio: **[PROMPTS.md](PROMPTS.md)** · Como instalar: **[INSTALL.md](INSTALL.md)**
 
 ## Os 9 domínios
 

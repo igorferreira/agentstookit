@@ -2,7 +2,7 @@
 
 _Finanças pessoais e negócios: orçamento, dívidas, FinOps de IA, quitação_
 
-**Como usar + exemplos de prompts:** [PROMPTS.md](../../PROMPTS.md)
+**Como usar + exemplos de prompts:** [PROMPTS.md](../../PROMPTS.md) · **Instalação:** [INSTALL.md](../../INSTALL.md)
 
 
 **7 agentes** (4 únicos × plataformas)

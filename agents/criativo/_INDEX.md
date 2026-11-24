@@ -2,7 +2,7 @@
 
 _Conteúdo e criação: LinkedIn, estúdio de vídeo_
 
-**Como usar + exemplos de prompts:** [PROMPTS.md](../../PROMPTS.md)
+**Como usar + exemplos de prompts:** [PROMPTS.md](../../PROMPTS.md) · **Instalação:** [INSTALL.md](../../INSTALL.md)
 
 
 **5 agentes** (2 únicos × plataformas)
