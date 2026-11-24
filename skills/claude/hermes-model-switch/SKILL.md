@@ -80,7 +80,7 @@ yaml.width = 4096
 
 path = "/home/usuario/.hermes/config.yaml"
 with open(path) as f:
-    data = yaml.load(f)
+    data = yaml.safe_load(f)
 
 data["fallback_providers"] = [
     CommentedMap([("provider", "openrouter"), ("model", "z-ai/glm-5.3-flash")]),

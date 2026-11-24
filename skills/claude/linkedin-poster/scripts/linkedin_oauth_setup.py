@@ -11,6 +11,7 @@ Usage:
 import argparse
 import http.server
 import json
+import os
 import secrets
 import stat
 import sys
@@ -118,7 +119,9 @@ def main(argv=None) -> int:
         "person_urn": person_urn,
         "expires_at": time.time() + token_data.get("expires_in", 5184000),
     }
-    CREDENTIALS_PATH.write_text(json.dumps(creds, indent=2))
+    fd = os.open(CREDENTIALS_PATH, os.O_WRONLY | os.O_CREAT | os.O_TRUNC, stat.S_IRUSR | stat.S_IWUSR)
+    with os.fdopen(fd, "w") as f:
+        f.write(json.dumps(creds, indent=2))
     CREDENTIALS_PATH.chmod(stat.S_IRUSR | stat.S_IWUSR)
     print(f"Credenciais salvas em {CREDENTIALS_PATH} (permissão 600).")
     print(f"Identidade confirmada: {person_urn}")
