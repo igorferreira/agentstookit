@@ -6,14 +6,20 @@ Coleção de agentes e skills prontos para as plataformas **Hermes**, **Codex** 
 
 ```
 agentstookit/
-├── agents/
-│   ├── hermes/   # 135 perfis Hermes (SOUL.md + config.yaml + skills do perfil)
-│   ├── codex/    # 115 agentes (definições .toml)
-│   └── claude/   # 130 agentes (definições .md)
+├── agents/         # organizados por DOMÍNIO, cada agente autocontido
+│   ├── juridico/   # banca jurídica (40+ especialidades) — veja _INDEX.md
+│   ├── dev/        # squads de dev, arquitetura, DevSecOps, Linux
+│   ├── saude/      # banca multidisciplinar de saúde
+│   ├── finance/    # finanças, dívidas, FinOps de IA
+│   ├── negocios/   # carreira, RH, produto, operações
+│   ├── agentic/    # meta-agentes (Hermes, OpenClaw, Copilot builder)
+│   ├── pesquisas/  # preços, dossiês, comparações
+│   ├── pessoais/   # agenda, casa, diário
+│   └── criativo/   # conteúdo, vídeo
 └── skills/
-    ├── hermes/   # 98 skills globais (organizadas por categoria)
-    ├── codex/    # 24 skills
-    └── claude/   # 139 skills
+    ├── hermes/   # skills globais (organizadas por categoria)
+    ├── codex/    # skills
+    └── claude/   # skills
 ```
 
 ## Como usar

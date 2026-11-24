@@ -1,9 +1,0 @@
-{
-  "last_report_path": "/home/usuario/.hermes/profiles/tech-pc/logs/curator/20261121-161314",
-  "last_run_at": "2026-11-21T16:13:14.321013+00:00",
-  "last_run_duration_seconds": 6.800441,
-  "last_run_summary": "auto: 25 archived; llm: skipped (consolidation off)",
-  "last_run_summary_shown_at": "2026-06-15T20:39:34.179520+00:00",
-  "paused": false,
-  "run_count": 9
-}

@@ -1,6 +1,0 @@
-model:
-  default: qwen/qwen3.7-flash
-  provider: openrouter
-browser:
-  executable_path: /usr/bin/google-chrome
-_config_version: 52
